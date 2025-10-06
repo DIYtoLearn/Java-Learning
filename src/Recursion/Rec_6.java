@@ -1,6 +1,7 @@
 package Recursion;
 
 import java.util.Scanner;
+// Fibonacci series
 
 public class Rec_6 {
 
