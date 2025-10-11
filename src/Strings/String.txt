@@ -18,3 +18,7 @@ apple VS apply
 apple comes before apply because 'e' comes before 'y'.
 
 For string concatenation user concat or +
+
+An object's hash code is a number generated from its content. If the content changes, the hash code should change this statement is true for immutable objects
+But the above statement does not hold true for String Builder or String Buffer Classes which create Mutable Strings
+
