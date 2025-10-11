@@ -17,7 +17,7 @@ public class GeminiPostRequest {
                 {
                   "parts": [
                     {
-                      "text": "Explain how AI works in a few words"
+                      "text": "Explain git works"
                     }
                   ]
                 }
