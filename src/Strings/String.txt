@@ -1,0 +1,20 @@
+ String are immutable in java
+ immutable means once declared it cannot be changed
+
+ String builder is not thread safe and is not suitable for multi threaded environments where multiple threads can access the same string object (Can be useful to avoid the performance overhead of syncronization that comes with using string buffer)
+ VERSUS
+ String buffer is thread safe, this class created mutable strings which can be modified, appended or inserted to
+
+The string pool also known as String constant pool within the java heap memory is a special storage area. That optimizes memory usage and improves performace by storing only one copy of each unique sting literal
+String s = new String("hello"); creates a new object in the heap every time, regardless of whether "hello" already exists. (use this more)
+
+String s = "hello"; checks the pool first. If "hello" is already there, it returns a reference to the existing object. Otherwise, it creates "hello" in the pool and returns a reference to it.
+
+
+equals() is case sensitive
+
+compareTo() compares two strings lexicographiaclly that is in the dictionary order
+apple VS apply
+apple comes before apply because 'e' comes before 'y'.
+
+For string concatenation user concat or +
