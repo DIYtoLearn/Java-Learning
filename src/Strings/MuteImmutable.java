@@ -12,7 +12,7 @@ public class MuteImmutable {
             if(has1 == has0)
                 System.out.println("Both String literal point to the same memory location in the String Pool !");
             else
-                System.out.println("Different hascodes !");
+                System.out.println("Different hash codes !");
 
     }
 
@@ -24,9 +24,9 @@ public class MuteImmutable {
         int has3 = s3.hashCode();
 
         if(has2 == has3)
-            System.out.println("String builder and buffer are mutable even when content is changed the memory location / hascode remains same !!");
+            System.out.println("String builder and buffer are mutable even when content is changed the memory location / hash code remains same !!");
         else
-            System.out.println("Different hascodes !");
+            System.out.println("Different hash codes !");
 
     }
 
