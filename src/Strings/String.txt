@@ -22,3 +22,12 @@ For string concatenation user concat or +
 An object's hash code is a number generated from its content. If the content changes, the hash code should change this statement is true for immutable objects
 But the above statement does not hold true for String Builder or String Buffer Classes which create Mutable Strings
 
+Both StringBuilder and StringBuffer have an internal character array that stores the characters you append.
+capacity() → the current size of that internal array, i.e., how many characters it can hold before needing to resize.
+length() → how many characters are actually in the builder right now.
+Default capacity = 16 characters
+With an initial capacity which we entered manually
+StringBuilder sb = new StringBuilder(50);
+
+If you append more characters than the current capacity allows, Java automatically increases the capacity using this rule
+newCapacity = (oldCapacity * 2) + 2
