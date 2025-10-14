@@ -17,8 +17,6 @@ compareTo() compares two strings lexicographiaclly that is in the dictionary ord
 apple VS apply
 apple comes before apply because 'e' comes before 'y'.
 
-For string concatenation user concat or +
-
 An object's hash code is a number generated from its content. If the content changes, the hash code should change this statement is true for immutable objects
 But the above statement does not hold true for String Builder or String Buffer Classes which create Mutable Strings
 
@@ -31,3 +29,27 @@ StringBuilder sb = new StringBuilder(50);
 
 If you append more characters than the current capacity allows, Java automatically increases the capacity using this rule
 newCapacity = (oldCapacity * 2) + 2
+
+For string concatenation user concat or +
+
+Difference between + and concat and why we should use the prior ?
+
+Use + for everyday string joining. When you write:
+String s = "Hello" + " " + "World";
+The compiler translates it into:
+String s = new StringBuilder()
+              .append("Hello")
+              .append(" ")
+              .append("World")
+              .toString();
+
+Use .concat() if you want a method-based, explicit join (and are sure values aren’t null).
+String s1 = "Hello";
+String s2 = null;
+
+// This works:
+System.out.println(s1 + s2);  // Hellonull
+
+// This throws an exception:
+System.out.println(s1.concat(s2)); // ❌ NullPointerException
+

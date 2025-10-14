@@ -4,27 +4,58 @@ public class PalindromeREVERSE {
 
     static void Palindrome(String s1)
     {
+        char[] arr = s1.toCharArray();
+        //System.out.println(arr);
+        // Character array two pointer method that has O(n) time complexity for reversing a string
+        int i = 0; int j = arr.length - 1;
 
+        while(i < j)
+        {
+            char temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+
+                i++;
+                j--;
+
+        }
+        String test =  new String(arr);
+        System.out.println(test);
+
+        // Comparision between two strings
+        System.out.println( s1.compareTo(test));
+        System.out.println( s1.compareToIgnoreCase(test)); // Can be used for palindrome check
+        System.out.println( s1.contains(test));
+        System.out.println( s1.equals(test));
+        System.out.println( s1.equalsIgnoreCase(test)); // Can be used for palindrome check
     }
 
     static void reverse(String s2)
     {
-        int len = s2.length();
-        String s3 = "";
-        System.out.println(s3);
+        int len = s2.length()-1;
 
-        for(int i=0; i<len; i++)
+        // All of these string declarations works !!
+        // String s3 = new String();
+        // String s3 = "";
+
+        // StringBuilder s3 = new StringBuilder();
+         StringBuffer s3 = new StringBuffer();
+
+        System.out.println(len);
+
+        for(int i=len; i>=0; i--)
         {
-            s3 = s3 + s2.charAt(i);
-        }
 
+            //s3 = s3 + s2.charAt(i);
+            s3 = s3.append(s2.charAt(i));
+        }
         System.out.println(s3);
     }
 
     public static void main(String[] args) {
-        String chk = "Hello";
+        String chk = "Madam";
         Palindrome(chk);
-        reverse(chk);
+        //reverse(chk);
 
     }
 }
