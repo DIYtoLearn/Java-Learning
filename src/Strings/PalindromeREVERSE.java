@@ -5,7 +5,7 @@ public class PalindromeREVERSE {
     static void Palindrome(String s1)
     {
         char[] arr = s1.toCharArray();
-        //System.out.println(arr);
+        // System.out.println(arr); // Prints the character array
         // Character array two pointer method that has O(n) time complexity for reversing a string
         int i = 0; int j = arr.length - 1;
 
@@ -56,6 +56,5 @@ public class PalindromeREVERSE {
         String chk = "Madam";
         Palindrome(chk);
         //reverse(chk);
-
     }
 }
