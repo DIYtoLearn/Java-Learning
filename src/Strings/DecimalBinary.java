@@ -17,7 +17,7 @@ public class DecimalBinary {
 
     static int Convert2(String str)
     {
-        // Given any Binary in sring format covert it to it`s equivalent decimal and return in integer
+        // Given any Binary in string format covert it to it`s equivalent decimal and return in integer
         return 1;
     }
 
