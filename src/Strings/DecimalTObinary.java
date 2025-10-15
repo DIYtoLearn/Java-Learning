@@ -8,7 +8,7 @@ public class DecimalTObinary {
 
        while(x != 0)
        {
-        z.insert(0,x%2);
+        z.insert(0,x%2); // Inserts elements to the 0th index pushing the current elements to the right
         x = x/2;
        }
         return new String(z);
