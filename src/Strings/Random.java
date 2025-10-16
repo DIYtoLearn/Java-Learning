@@ -13,5 +13,8 @@ public class Random {
         String res = str.toUpperCase();
         System.out.println(res.charAt(0)+""+str.substring(1,len2));
         System.out.println(res);
+
+        int i = 3;
+        System.out.println(Math.pow(2,i));
     }
 }

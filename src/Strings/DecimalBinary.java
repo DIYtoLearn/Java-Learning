@@ -18,6 +18,19 @@ public class DecimalBinary {
     static int Convert2(String str)
     {
         // Given any Binary in string format covert it to it`s equivalent decimal and return in integer
+        int len = str.length() - 1;
+        int sum = 0;
+
+        for(int i=len; i>=0; i--)
+        {
+            char c = str.charAt(i);
+            if(c == '1')
+            {
+               System.out.println( Math.pow(2,i));
+            }
+
+        }
+        System.out.println(sum);
         return 1;
     }
 
