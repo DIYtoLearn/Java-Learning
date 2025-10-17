@@ -20,25 +20,27 @@ public class DecimalBinary {
         // Given any Binary in string format covert it to it`s equivalent decimal and return in integer
         int len = str.length() - 1;
         int sum = 0;
+        int count = 0;
 
         for(int i=len; i>=0; i--)
         {
-            char c = str.charAt(i);
+            char c = str.charAt(count);
             if(c == '1')
             {
                System.out.println( Math.pow(2,i));
+               sum += Math.pow(2,i);
             }
-
+            count ++;
         }
         System.out.println(sum);
-        return 1;
+        return sum;
     }
 
     public static void main(String[] args) {
-        String x = Convert1(16);
+        String x = Convert1(9);
         System.out.println(x);
 
-        int res = Convert2("1000");
+        int res = Convert2("1001");
 
     }
 }
