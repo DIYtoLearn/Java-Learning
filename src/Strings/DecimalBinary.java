@@ -32,7 +32,7 @@ public class DecimalBinary {
             }
             count ++;
         }
-        System.out.println(sum);
+
         return sum;
     }
 
@@ -41,6 +41,7 @@ public class DecimalBinary {
         System.out.println(x);
 
         int res = Convert2("1001");
+        System.out.println(res);
 
     }
 }
