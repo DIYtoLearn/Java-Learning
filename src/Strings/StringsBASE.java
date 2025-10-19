@@ -1,5 +1,7 @@
 package Strings;
 
+import org.jetbrains.annotations.NotNull;
+
 public class StringsBASE {
     static void Panagram(StringBuffer sbu)
     {
@@ -46,7 +48,7 @@ public class StringsBASE {
 
     }
 
-    static void Anagram(String str3, String str4)
+    static void Anagram(@org.jetbrains.annotations.NotNull String str3, @NotNull String str4)
     {
         //Two strings are said to be an anagram of each other if they are just permutations of each other.
         // That is, the set of characters in both the strings must be the same, only the order of characters can be different
@@ -63,11 +65,33 @@ public class StringsBASE {
     static void PatternSearch(StringBuilder sbuild)
     {
         // a text and a word will be given. The task is to find in what all positions the word is present in the text.
-        String word_to_FIND = "world";
-
+        String word_to_FIND = new String("world");
+        StringBuilder x2 = new StringBuilder();
         // Extract each word from the sentence
-    }
+        int len = sbuild.length();
+        //System.out.println(len);
+        //int c = 32; ASCII value for space
+        for(int i=0; i<len; i++)
+        {
+            int x = sbuild.charAt(i);
 
+            if(x != 32) {
+                x2 = x2.append(sbuild.charAt(i)); }
+
+            if(x == 32 || i == (len-1))
+            {
+                String checker = new String(x2);
+                System.out.println(checker);
+
+                if(checker.equalsIgnoreCase(word_to_FIND))
+                {
+                   System.out.println(true);
+                   break;
+                }
+                x2.delete(0,x2.length());
+            }
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -78,13 +102,13 @@ public class StringsBASE {
 
         String s1 = "abcd";
         String s2 = "cbdae";
-        ExtraChar(s1,s2);
+        ExtraChar(s1,s2); // WIP
 
         String s3 = "silent";
         String s4 = "list";
-        Anagram(s3,s4);
+        Anagram(s3,s4); // Done
 
         StringBuilder sbui = new StringBuilder("Welcome to the world of Computers");
-        PatternSearch(sbui);
+        PatternSearch(sbui); // Done
     }
 }
