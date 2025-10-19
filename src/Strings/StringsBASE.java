@@ -48,7 +48,7 @@ public class StringsBASE {
 
     }
 
-    static void Anagram(@org.jetbrains.annotations.NotNull String str3, @NotNull String str4)
+    static void Anagram(@NotNull String str3, @NotNull String str4)
     {
         //Two strings are said to be an anagram of each other if they are just permutations of each other.
         // That is, the set of characters in both the strings must be the same, only the order of characters can be different
@@ -93,7 +93,6 @@ public class StringsBASE {
         }
     }
 
-  // https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/
     public static void main(String[] args) {
 
         System.out.println("Out with the devil");
