@@ -1,6 +1,7 @@
 package Strings;
 
 import org.jetbrains.annotations.NotNull;
+import java.util.Arrays;
 
 public class StringsBASE {
     static void Panagram(StringBuffer sbu)
@@ -55,10 +56,24 @@ public class StringsBASE {
         int len1 = str3.length();
         int len2 = str4.length();
 
-        if(len2 != len1)
-            System.out.println(false);
+        if(len1 == len2)
+        {
+          char[] c = str3.toCharArray();
+          char[] c2 = str4.toCharArray();
+
+          Arrays.sort(c);
+          Arrays.sort(c2);
+
+          if(Arrays.equals(c,c2))
+              System.out.println(true);
+
+          else
+              System.out.println(false);
+
+        }
+
         else
-            System.out.println(true);
+            System.out.println(false);
         
     }
 
@@ -101,13 +116,13 @@ public class StringsBASE {
 
         String s1 = "abcd";
         String s2 = "cbdae";
-        ExtraChar(s1,s2); // WIP
+        //ExtraChar(s1,s2); // WIP
 
-        String s3 = "silent";
-        String s4 = "list";
+        String s3 = "bc";
+        String s4 = "ad";
         Anagram(s3,s4); // Done
 
         StringBuilder sbui = new StringBuilder("Welcome to the world of Computers");
-        PatternSearch(sbui); // Done
+        //PatternSearch(sbui); // Done
     }
 }
