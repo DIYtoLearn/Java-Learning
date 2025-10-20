@@ -124,6 +124,6 @@ public class StringsBASE {
         Anagram(s3,s4); // Done
 
         StringBuilder sbui = new StringBuilder("Welcome to the world of Computers");
-        //PatternSearch(sbui); // Done
+        PatternSearch(sbui); // Done
     }
 }
