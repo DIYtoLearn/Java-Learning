@@ -20,26 +20,27 @@ public class StringsBASE {
         // we will convert the string to it's equivalent integer value
         // Find the difference and convert it to a character that should give us the required extra character
 
-            int len1 = str.length();
-            int len2 = str2.length();
-
-            int max = Math.max(len2,len1);
-            int min = Math.min(len2, len1);
+            int len1 = str.length(); // n length
+            int len2 = str2.length(); // n+1 length
 
             int sum1 = 0;
             int sum2 = 0;
 
-            for(int i=0; i<max; i++) {
-                if (i < min - 1) {
+            for(int i=0; i<len2; i++) {
+                if (i <= len2 - 2) {
                     char chk = str.charAt(i);
+                    char chk2 = str2.charAt(i);
+
                     int z = chk;
+                    int z2 = chk2;
+
                     sum1 += z;
-                    sum2 += z;
+                    sum2 += z2;
                 }
                 else {
-                    char chk2 = str2.charAt(i);
-                    int z2 = chk2;
-                    sum2 += z2;
+                    char chknw = str2.charAt(i);
+                    int z3 = chknw;
+                    sum2 += z3;
                 }
             }
 
@@ -116,7 +117,7 @@ public class StringsBASE {
 
         String s1 = "abcd";
         String s2 = "cbdae";
-        //ExtraChar(s1,s2); // WIP
+        ExtraChar(s1,s2); // Done
 
         String s3 = "bc";
         String s4 = "ad";
