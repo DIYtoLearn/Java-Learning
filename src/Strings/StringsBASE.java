@@ -115,8 +115,8 @@ public class StringsBASE {
         StringBuffer sbuf = new StringBuffer("The quick brown fox jumps over the lazy dog");
         Panagram(sbuf);
 
-        String s1 = "abcd";
-        String s2 = "cbdae";
+        String s1 = "efg";
+        String s2 = "gtfe";
         ExtraChar(s1,s2); // Done
 
         String s3 = "bc";
