@@ -63,9 +63,10 @@ public class CharacterArraySORT {
         for(int i=0; i<len; i++)
         {
             x = str3.charAt(i);
-            chararr[x-1]++;
+            chararr[x-test]++;
         }
 
+        // Print the new sorted array by converting the corresponding position to character
         for(int j:chararr)
         {
             System.out.print(j+" ");
@@ -75,6 +76,6 @@ public class CharacterArraySORT {
     public static void main(String[] args) {
         Bubble("dba");
         selection("check");
-        //counting("laugh");
+        counting("laugh");
     }
 }
