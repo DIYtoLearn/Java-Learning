@@ -1,4 +1,4 @@
-package Test;
+package All_tests.Test;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package Test;
+package All_tests.Test;
 
 public class Chk1 {
     public static void main(String[] args) {
