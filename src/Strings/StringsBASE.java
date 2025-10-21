@@ -7,6 +7,8 @@ public class StringsBASE {
     static void Panagram(StringBuffer sbu)
     {
         // A pangram is a sentence containing every letter in the English alphabet.
+        CharacterArraySORT chki = new CharacterArraySORT();
+        chki.Bubble("testing");
 
 
     }
