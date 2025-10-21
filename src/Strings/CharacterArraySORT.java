@@ -53,8 +53,23 @@ public class CharacterArraySORT {
 
     static void counting(String str3)
     {
+        int test = 'a';
+        System.out.println(test);
 
+        int[] chararr = new int[25];
+        int len = str3.length();
+        int x;
 
+        for(int i=0; i<len; i++)
+        {
+            x = str3.charAt(i);
+            chararr[x-1]++;
+        }
+
+        for(int j:chararr)
+        {
+            System.out.print(j+" ");
+        }
     }
 
     public static void main(String[] args) {
