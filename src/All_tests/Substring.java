@@ -4,7 +4,7 @@ public class Substring {
     public static void main(String[] args) {
 
         String s = "Hello";
-        String p = "ol";
+        String p = "llo";
 
         int sLen = s.length();
         int pLen = p.length();
