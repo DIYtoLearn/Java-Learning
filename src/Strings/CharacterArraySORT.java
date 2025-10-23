@@ -56,7 +56,7 @@ public class CharacterArraySORT {
         int test = 'a';
         System.out.println(test);
 
-        int[] chararr = new int[25];
+        int[] chararr = new int[26];
         int len = str3.length();
         int x;
 
@@ -71,7 +71,7 @@ public class CharacterArraySORT {
 
         for(int i=0; i<len2; i++)
         {
-            if(chararr[i] == 1)
+            if(chararr[i] >= 1)
             {
                 char x2 = (char) (i+97);
                 System.out.print(x2+" ");
@@ -83,6 +83,6 @@ public class CharacterArraySORT {
     public static void main(String[] args) {
         Bubble("dba");
         selection("check");
-        counting("laugh");
+        counting("zedd");
     }
 }
