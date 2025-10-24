@@ -10,8 +10,26 @@ public class StringsBASE {
         sbu = sbu.toLowerCase();
         System.out.println(sbu);
 
+        // The counting method will work only for sentences with all LOWERCASE letters and no WHITESPACES
+
         CharacterArraySORT chki = new CharacterArraySORT();
-        chki.counting(sbu);
+        int[] required_arr = chki.counting(sbu);
+
+        boolean zeroVal = false;
+        for(int x: required_arr)
+        {
+            System.out.print(x+" ");
+
+            if(x == 0)
+                zeroVal = true;
+
+        }
+
+        if(!zeroVal)
+            System.out.println("PANAGRAM");
+
+        else
+            System.out.println(zeroVal);
 
 
     }
@@ -117,7 +135,7 @@ public class StringsBASE {
     public static void main(String[] args) {
 
         //System.out.println("Out with the devil");
-        String sbuf = "The quick brown fox jumps over the lazy dog";
+        String sbuf = "Thequickbrownfoxjumpsoverthelazydog";
         Panagram(sbuf);
 
         String s1 = "efg";
