@@ -51,7 +51,7 @@ public class CharacterArraySORT {
             System.out.println(c2);
     }
 
-    static void counting(String str3)
+    static int[] counting(String str3)
     {
         int test = 'a';
         System.out.println(test);
@@ -78,7 +78,11 @@ public class CharacterArraySORT {
 
             }
         }
+        System.out.println();
+
+        return chararr;
     }
+
 
     public static void main(String[] args) {
         Bubble("dba");
