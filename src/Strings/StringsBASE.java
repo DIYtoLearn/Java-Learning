@@ -135,7 +135,7 @@ public class StringsBASE {
     public static void main(String[] args) {
 
         //System.out.println("Out with the devil");
-        String sbuf = "Thequickbrownfoxjumpsoverthelazydog";
+        String sbuf = "Thequickbrownfoxjumpsoverthelaydog";
         Panagram(sbuf);
 
         String s1 = "efg";
