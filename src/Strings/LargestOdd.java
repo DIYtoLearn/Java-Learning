@@ -1,26 +1,48 @@
 package Strings;
+import java.util.Arrays;
 
 public class LargestOdd {
 
     static String largestOddNumber(String num)
     {
-        int value = Integer.parseInt(num);
-        int val2 = Integer.valueOf(num);
+        int len = num.length();
+        int val = Integer.parseInt(num);
+        //int val2 = Integer.valueOf(num);
 
-        int test = val2 - value;
-        System.out.println(test);
+        int lastdig ;
+        int count = 0;
+        int[] arr = new int[len];
 
-        System.out.println(value+" "+val2);
+        if(val % 2 != 0)
+            return num;
 
-        return num;
+        else {
+            while (val > 0) {
+                lastdig = val % 10;
 
+                val = val / 10;
+
+                if (lastdig % 2 != 0) {
+                    count++;
+                    arr[count - 1] = lastdig;
+                }
+            }
+            if(count == 0)
+            {
+                return "";
+            }
+
+            else {
+            Arrays.sort(arr);
+            String num2 =  String.valueOf(arr[len-1]);
+            return num2; }
+        }
     }
 
     public static void main(String[] args) {
-        String req = largestOddNumber("-52");
+        String req = largestOddNumber("42009");
 
-        //System.out.println(req);
-
+        System.out.println(req);
 
     }
 }
