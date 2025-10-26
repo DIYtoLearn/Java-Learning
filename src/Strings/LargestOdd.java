@@ -9,6 +9,11 @@ public class LargestOdd {
         int val = Integer.parseInt(num);
         //int val2 = Integer.valueOf(num);
 
+        if(val<0)
+        {
+            val = Math.abs(val);
+        }
+
         int lastdig ;
         int count = 0;
         int[] arr = new int[len];
@@ -29,7 +34,8 @@ public class LargestOdd {
             }
             if(count == 0)
             {
-                return "";
+                System.out.println(num);
+                return "NO";
             }
 
             else {
@@ -39,7 +45,7 @@ public class LargestOdd {
     }
 
     public static void main(String[] args) {
-        String req = largestOddNumber("7");
+        String req = largestOddNumber("-40234");
 
         System.out.println(req);
 
