@@ -54,7 +54,7 @@ public class PalindromeREVERSE {
 
     public static void main(String[] args) {
         String chk = "Madam";
-        Palindrome(chk);
-        //reverse(chk);
+        //Palindrome(chk);
+        reverse(chk);
     }
 }
