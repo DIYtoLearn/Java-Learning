@@ -34,13 +34,12 @@ public class LargestOdd {
 
             else {
             Arrays.sort(arr);
-            String num2 =  String.valueOf(arr[len-1]);
-            return num2; }
+            return String.valueOf(arr[len-1]); }
         }
     }
 
     public static void main(String[] args) {
-        String req = largestOddNumber("42009");
+        String req = largestOddNumber("7");
 
         System.out.println(req);
 
