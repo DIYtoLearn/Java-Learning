@@ -75,7 +75,6 @@ public class PalindromeREVERSE {
 
             if(chr == 32 && !sbu.isEmpty() || i==0 && !sbu.isEmpty())
             {
-
                 //System.out.print(sbu+" ");
                 req = req+sbu+" ";
 
