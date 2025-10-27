@@ -54,32 +54,44 @@ public class PalindromeREVERSE {
 
     static void reverseWords(String s)
     {
-        // Trim extra whitespaces
         // Create a string with words starting from the end of the original string
 
         int len = s.length();
+        int len2;
         StringBuffer sbu = new StringBuffer();
 
         //Word Extractor from the end of the original string
        int chr;
+       String req = "";
         for(int i=len-1; i>=0; i--)
         {
             chr = s.charAt(i);
 
             if(chr != 32)
             {
-                sbu = sbu.append(s.charAt(i));
+                sbu = sbu.insert(0,s.charAt(i));
 
             }
 
+            if(chr == 32 && !sbu.isEmpty() || i==0 && !sbu.isEmpty())
+            {
+
+                //System.out.print(sbu+" ");
+                req = req+sbu+" ";
+
+                len2 = sbu.length();
+
+                sbu.delete(0,len2);
+            }
         }
-        System.out.println(sbu);
+        // Remove the extra whitespace at the end
+        System.out.println(req.replaceAll("\\s+$", ""));
     }
 
     public static void main(String[] args) {
         String chk = "Madam";
         //Palindrome(chk);
         //reverse(chk);
-        reverseWords("  hello world  ");
+        reverseWords("a good   example");
     }
-} 
+}
