@@ -1,4 +1,4 @@
-package GFG.pracrise.Loops;
+package GFG.Loops;
 
 public class Inf_loopFUN {
     public static void main(String[] args) {

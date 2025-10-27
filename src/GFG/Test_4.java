@@ -1,4 +1,4 @@
-package GFG.pracrise;
+package GFG;
 
 public class Test_4 {
 }

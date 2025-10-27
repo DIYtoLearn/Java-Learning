@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
-!**/src/GFG.pracrise.test/**/out/
+!**/src/GFG.test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -13,7 +13,7 @@ out/
 .sts4-cache
 bin/
 !**/src/main/**/bin/
-!**/src/GFG.pracrise.test/**/bin/
+!**/src/GFG.test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/

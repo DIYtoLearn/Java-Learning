@@ -1,4 +1,4 @@
-package GFG.pracrise;// important Header file for the
+package GFG;// important Header file for the
 import java.util.Scanner;
 
 public class Input {

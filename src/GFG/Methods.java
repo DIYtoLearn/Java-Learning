@@ -1,4 +1,4 @@
-package GFG.pracrise;
+package GFG;
 import java.util.Scanner;
 
 class Point {int x2, y2;}

@@ -1,4 +1,4 @@
-package GFG.pracrise;
+package GFG;
 
 class Test_2{
     public static int getword()

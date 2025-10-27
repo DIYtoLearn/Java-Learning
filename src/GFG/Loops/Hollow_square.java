@@ -1,4 +1,4 @@
-package GFG.pracrise.Loops;
+package GFG.Loops;
 
 public class Hollow_square {
     public static void main(String[] args) {
