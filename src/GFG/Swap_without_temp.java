@@ -1,4 +1,4 @@
-package GFG.pracrise;
+package GFG;
 
 public class Swap_without_temp {
     public static void main(String[] args) {
