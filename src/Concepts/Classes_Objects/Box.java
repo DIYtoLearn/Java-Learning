@@ -6,6 +6,7 @@ class BoxVal{
     double width;
     double length;
 
+    // Constructor that takes in the value's of the class instances at the time of object creation of the class BoxVal
     BoxVal(double x, double y, double z)
     {
         height = x;
@@ -30,7 +31,5 @@ public class Box {
         double req = myBox.volume();
         System.out.println("The required volume: "+ req);
 
-
     }
-
 }
