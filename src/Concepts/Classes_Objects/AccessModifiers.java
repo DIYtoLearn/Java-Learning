@@ -1,5 +1,5 @@
 package Concepts.Classes_Objects;
-import All_tests.*;
+
 import All_tests.Test.Inh;
 
 class checkPrivate
@@ -20,6 +20,11 @@ class success extends Inh
           fun();
           return null;
     }
+
+    @Override
+    protected void fun() {
+        super.fun();
+    }
 }
 
 
@@ -35,6 +40,7 @@ public class AccessModifiers
 
         success sc = new success();
         sc.getIt();
+        sc.fun();
 
     }
 }
