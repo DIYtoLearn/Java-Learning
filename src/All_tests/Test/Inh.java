@@ -1,10 +1,10 @@
 package All_tests.Test;
 
 public class Inh {
-    
+
      protected void fun()
     {
-        System.out.println("This print statement is another package");
+        System.out.println("This print statement is in another package");
     }
 
     protected void using()
