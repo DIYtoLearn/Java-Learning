@@ -1,4 +1,6 @@
 package Concepts.Classes_Objects;
+import All_tests.*;
+import All_tests.Test.Inh;
 
 class checkPrivate
 {
@@ -12,14 +14,27 @@ class checkPrivate
 
 }
 
-public class AccessModifiers {
+class success extends Inh
+{
+     protected success getIt() {
+          fun();
+          return null;
+    }
+}
+
+
+public class AccessModifiers
+{
     public static void main(String[] args) {
 
         checkPrivate chkp = new checkPrivate();
 
-        System.out.println(chkp.getY());
+        System.out.println(chkp.getY() +" "+chkp.x);
 
-        System.out.println(chkp.y);
+        //System.out.println(chkp.y);
+
+        success sc = new success();
+        sc.getIt();
 
     }
 }
