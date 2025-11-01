@@ -1,3 +1,6 @@
+Java uses 16 bits to store a sting
+UTF-16 encoding is used to store character in Java
+
  String are immutable in java
  immutable means once declared it cannot be changed
 
