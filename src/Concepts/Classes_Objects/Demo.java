@@ -5,6 +5,7 @@ class user
 {
     int PlayerID;
     static int id = 0;
+    private int nint = 110;
 
     // Global constant variable for the class user
      static final int XXX ;
@@ -32,6 +33,8 @@ class Demo
     {
         user cret = new user("Upayan", 26);
         user cret2 = new user("Adrija", 25);
+
+        int val = cret2.nint; // Cannot use this because of private specifier of the instance variable nint
 
         // ClassName.static_class-variable
         System.out.println(user.id);
