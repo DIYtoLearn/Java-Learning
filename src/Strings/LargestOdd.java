@@ -61,14 +61,14 @@ public class LargestOdd {
 
             }
 
-            System.out.println("Conversion from String to interger manually "+ number);
+            System.out.println("Conversion from String to integer manually "+ number);
     }
 
-    
+
     public static void main(String[] args) {
         String req = largestOddNumber("-40234");
 
-        largestOddNumber2("01230");
+        largestOddNumber2("1230");
 
         System.out.println(req);
 
