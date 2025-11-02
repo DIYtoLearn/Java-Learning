@@ -11,7 +11,6 @@ class checkPrivate
     {
         return y;
     }
-
 }
 
 class success extends Inh
