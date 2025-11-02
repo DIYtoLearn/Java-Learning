@@ -34,7 +34,7 @@ class Demo
         user cret = new user("Upayan", 26);
         user cret2 = new user("Adrija", 25);
 
-        int val = cret2.nint; // Cannot use this because of private specifier of the instance variable nint
+        //int val = cret2.nint; // Cannot use this because of private specifier of the instance variable nint
 
         // ClassName.static_class-variable
         System.out.println(user.id);
