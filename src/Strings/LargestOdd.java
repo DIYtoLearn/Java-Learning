@@ -100,9 +100,9 @@ public class LargestOdd {
     public static void main(String[] args) {
         //String req = largestOddNumber("-40234");
 
-        ConvertStringTOInteger("12303");
+        ConvertStringTOInteger("123034");
 
-        String efficient = mostEfficient("1230");
+        String efficient = mostEfficient("12304");
         System.out.println(efficient);
 
     }
