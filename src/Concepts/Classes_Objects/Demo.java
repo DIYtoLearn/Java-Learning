@@ -3,7 +3,7 @@ package Concepts.Classes_Objects;
 
 class user
 {
-    int PlayerID;
+    //int PlayerID;
     static int id = 0;
     private int nint = 110;
 
@@ -40,8 +40,8 @@ class Demo
         System.out.println(user.id);
 
         //objectName.class_variable
-        System.out.println(cret.PlayerID);
-        System.out.println(cret2.PlayerID);
+        //System.out.println(cret.PlayerID);
+        //System.out.println(cret2.PlayerID);
 
         //static method can be used without a class object
         // ClassName.static_method
