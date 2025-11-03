@@ -47,7 +47,7 @@ class Demo
         // ClassName.static_method
         System.out.println(user.getPlayerCount());
 
-        /* Can be used to perform addition of string or modification of the already initialized string
+        /* "final StringBuffer sb" Can be used to perform addition of string or modification of the already initialized string
         but cannot be used to create a new string object in the heap memory using sb = new StringBuffer("Hello");
          */
 
