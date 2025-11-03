@@ -89,8 +89,7 @@ public class LargestOdd {
 
             if(digits%2 != 0)
             {
-                String required = s.substring(0,i+1);
-                return required;
+                return s.substring(0,i+1);
 
             }
         }
