@@ -30,6 +30,12 @@ class User2
     {
         System.out.println("NAME: "+name+" IDENTIFICATION: "+id);
     }
+
+    public void display()
+    {
+        System.out.println("Hello World");
+    }
+
 }
 
 public class thisDemo {
@@ -39,6 +45,9 @@ public class thisDemo {
 
         us1.print();
         us2.print();
+
+        us1.display();
+        us2.display();
 
     }
 }
