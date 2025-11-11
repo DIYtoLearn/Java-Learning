@@ -7,11 +7,10 @@ class Solution {
         // System.out.println(arr.size());
         String req = "";
 
-        for(int i=0; i< arr.size(); i++)
-        {
-            req = req + arr.get(i);
+         for (String s : arr) {
+             req = req + s;
 
-        }
+         }
 
         return req;
     }
@@ -23,7 +22,7 @@ public class concating {
     public static void main(String[] args) {
 
         ArrayList<String> list = new ArrayList<>();
-        list.add();
+        list.add("Hello");
         list.add("World");
 
         String note = Solution.concatenateStrings(list);
