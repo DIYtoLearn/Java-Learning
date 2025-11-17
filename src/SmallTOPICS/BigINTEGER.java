@@ -25,6 +25,10 @@ class operation
         req = bii.subtract(bii);
         System.out.println("Substraction "+req);
 
+        BigInteger bnnw = new BigInteger("3");
+        req = bii.remainder(bnnw);
+        System.out.println("Remainder "+req);
+
     }
 }
 
