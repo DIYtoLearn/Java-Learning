@@ -5,9 +5,16 @@ import java.math.BigInteger;
 class operation
 {
     BigInteger bii;
+    int chk;
     operation(BigInteger _bii)
     {
         bii = _bii;
+    }
+
+    operation()
+    {
+        chk = 5;
+
     }
 
     void OperationsPOSSIBLE()
@@ -30,6 +37,19 @@ class operation
         System.out.println("Remainder "+req);
 
     }
+
+    protected void factorial()
+    {
+
+        int fact = 1;
+        for(int i=1; i<=chk; i++)
+        {
+            fact = fact*i;
+
+        }
+
+        System.out.println("Factorial "+fact);
+    }
 }
 
 public class BigINTEGER {
@@ -47,6 +67,9 @@ public class BigINTEGER {
 
         operation op = new operation(bi);
         op.OperationsPOSSIBLE();
+
+        operation op2 = new operation();
+        op.factorial();
     }
 }
 
