@@ -11,7 +11,7 @@ class operation
         bii = _bii;
     }
 
-    operation() { chk = 20;}
+    operation() { chk = 100000;}
 
     protected void OperationsPOSSIBLE()
     {
@@ -80,7 +80,7 @@ public class BigINTEGER {
         //op.OperationsPOSSIBLE();
 
         operation op2 = new operation();
-        op2.factorial();
+        //op2.factorial();
         op2.factorial2();
     }
 }
