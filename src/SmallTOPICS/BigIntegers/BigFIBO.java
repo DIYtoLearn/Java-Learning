@@ -1,4 +1,4 @@
-package SmallTOPICS;
+package SmallTOPICS.BigIntegers;
 import java.math.BigInteger;
 
 public class BigFIBO {
