@@ -11,7 +11,7 @@ class operation
         bii = _bii;
     }
 
-    operation() { chk = 10;}
+    operation() { chk = 20;}
 
     protected void OperationsPOSSIBLE()
     {
@@ -84,4 +84,3 @@ public class BigINTEGER {
         op2.factorial2();
     }
 }
-
