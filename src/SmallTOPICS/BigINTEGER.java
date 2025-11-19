@@ -11,7 +11,7 @@ class operation
         bii = _bii;
     }
 
-    operation() { chk = 100;}
+    operation() { chk = 10;}
 
     protected void OperationsPOSSIBLE()
     {
@@ -49,11 +49,17 @@ class operation
     }
 
     // Factorial calculation using BigInteger
-    protected void factorial2(BigInteger big)
+    protected void factorial2()
     {
-        System.out.println(big);
+        BigInteger fact = new BigInteger("1");
+        BigInteger big2;
+        for(int i=1; i<=chk; i++)
+        {
+            big2 = BigInteger.valueOf(i);
+            fact = fact.multiply(big2);
 
-
+        }
+        System.out.println("BigInteger Factorial "+fact);
     }
 }
 
@@ -72,10 +78,10 @@ public class BigINTEGER {
 
         operation op = new operation(bi);
         //op.OperationsPOSSIBLE();
-        op.factorial2(bi2);
 
         operation op2 = new operation();
-        //op2.factorial();
+        op2.factorial();
+        op2.factorial2();
     }
 }
 
