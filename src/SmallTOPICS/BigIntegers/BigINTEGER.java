@@ -31,7 +31,6 @@ class operation
         BigInteger bnnw = new BigInteger("3");
         req = bii.remainder(bnnw);
         System.out.println("Remainder "+req);
-
     }
 
     // Factorial Calculating using Integer variables
