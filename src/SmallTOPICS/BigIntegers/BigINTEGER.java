@@ -77,7 +77,7 @@ public class BigINTEGER {
         //System.out.println(bi+" "+bi2+" "+bi3);
 
         operation op = new operation(bi);
-        //op.OperationsPOSSIBLE();
+        op.OperationsPOSSIBLE();
 
         operation op2 = new operation();
         //op2.factorial();
