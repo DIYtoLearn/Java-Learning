@@ -17,7 +17,7 @@ class BigFIBO {
         BigInteger c = new BigInteger("1");
 
         int converting =  bii.intValue();
-        System.out.print("1 1 ");
+        //System.out.print("1 1 ");
 
         for(int i=3; i<=converting; i++)
         {
@@ -25,7 +25,7 @@ class BigFIBO {
             b = c;
             c = a;
 
-            System.out.print(a+" ");
+            System.out.println(a);
 
         }
         System.out.println();
@@ -36,7 +36,7 @@ class BigFIBO {
 class checking {
     public static void main(String[] args) {
 
-        BigInteger bii = new BigInteger("100");
+        BigInteger bii = new BigInteger("1000000000");
         BigFIBO bF = new BigFIBO(bii);
         bF.FiboSeries();
 
