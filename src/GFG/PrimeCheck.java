@@ -17,7 +17,7 @@ class Numbers{
             return  false;
         else if(number <= 3)
             return true;
-        else {
+        else { // mathematical fact: if n has a divisor greater than √n, it must also have a corresponding divisor less than √n. Use that to limit your loop
             for(int i=2; i<= Math.sqrt(number); i++)
             {
                 if(number % i == 0)
