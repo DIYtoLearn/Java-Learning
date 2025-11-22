@@ -43,7 +43,6 @@ class Numbers{
         }
         return number;
     }
-
 }
 
 public class PrimeCheck {
@@ -58,7 +57,6 @@ public class PrimeCheck {
 
         int nextPrime = nm.NextPrime();
         System.out.println("The next prime number: "+nextPrime);
-
-
+        
     }
 }
