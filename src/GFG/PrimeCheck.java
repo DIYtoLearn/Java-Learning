@@ -22,7 +22,6 @@ class Numbers{
             {
                 if(number % i == 0)
                     return false;
-
             }
             return  true;
         }
@@ -57,6 +56,5 @@ public class PrimeCheck {
 
         int nextPrime = nm.NextPrime();
         System.out.println("The next prime number: "+nextPrime);
-        
     }
 }
