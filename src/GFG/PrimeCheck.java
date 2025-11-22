@@ -12,7 +12,7 @@ class Numbers{
 
     protected boolean prime()
     {
-
+        System.out.println("Inside prime method: "+number);
         if(number <= 1)
             return  false;
         else if(number <= 3)
@@ -28,6 +28,22 @@ class Numbers{
         }
     }
 
+    protected int NextPrime()
+    {
+        number = number + 1;
+        boolean val ;
+
+        while (true)
+        {
+            val = prime();
+            if(val) {
+                break;
+            }
+            number++;
+        }
+        return number;
+    }
+
 }
 
 public class PrimeCheck {
@@ -37,8 +53,11 @@ public class PrimeCheck {
         int x = sc.nextInt();
 
         Numbers nm = new Numbers(x);
-        boolean req = nm.prime();
-        System.out.println(req);
+//        boolean req = nm.prime();
+//        System.out.println(req);
+
+        int nextPrime = nm.NextPrime();
+        System.out.println("The next prime number: "+nextPrime);
 
 
     }
