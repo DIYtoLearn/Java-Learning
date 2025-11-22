@@ -42,6 +42,7 @@ class Numbers{
         }
         return number;
     }
+
 }
 
 public class PrimeCheck {
