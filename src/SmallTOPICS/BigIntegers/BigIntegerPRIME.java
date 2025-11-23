@@ -4,14 +4,23 @@ import java.math.BigInteger;
 class Solution2 {
     public static int nextPrime(int n) {
 
-        BigInteger n2 = BigInteger.valueOf(n);
+        // convert input to BigInteger
+        BigInteger nBig = BigInteger.valueOf(n);
 
-        if(n2.compareTo(BigInteger.ONE) < 0)
-        {
+        // handle small/negative inputs explicitly
+        if (nBig.compareTo(BigInteger.ONE) < 0) {
             return 2;
         }
 
-        BigInteger next = n2.nextProbablePrime();
+        // nextProbablePrime() returns the first prime strictly greater than the argument
+        BigInteger next = nBig.nextProbablePrime();
+
+        // safety: ensure it fits in int (throw or handle as needed)
+        BigInteger intMax = BigInteger.valueOf(Integer.MAX_VALUE);
+        if (next.compareTo(intMax) > 0) {
+            throw new ArithmeticException("next prime does not fit into int");
+        }
+
         return next.intValue();
 
     }
