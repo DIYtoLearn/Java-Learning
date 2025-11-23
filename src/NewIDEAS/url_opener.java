@@ -1,4 +1,4 @@
-package GFG;
+package NewIDEAS;
 import java.awt.Desktop;
 import java.net.URI;
 
