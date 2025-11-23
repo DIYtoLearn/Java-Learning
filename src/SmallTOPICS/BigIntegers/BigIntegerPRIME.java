@@ -29,7 +29,7 @@ class Solution2 {
 public class BigIntegerPRIME {
     public static void main(String[] args) {
 
-        int req2 = Solution2.nextPrime(-11);
+        int req2 = Solution2.nextPrime(999999999);
         System.out.println("Next Prime: "+req2);
 
     }
