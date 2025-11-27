@@ -33,7 +33,7 @@ StringBuilder sb = new StringBuilder(50);
 If you append more characters than the current capacity allows, Java automatically increases the capacity using this rule
 newCapacity = (oldCapacity * 2) + 2
 
-For string concatenation user concat or +
+For string concatenation use concat or +
 
 Difference between + and concat and why we should use the prior ?
 

@@ -62,7 +62,7 @@ public class PalindromeREVERSE {
 
         //Word Extractor from the end of the original string
        int chr;
-       String req = "";
+       String req = "" ;
         for(int i=len-1; i>=0; i--)
         {
             chr = s.charAt(i);
@@ -76,7 +76,7 @@ public class PalindromeREVERSE {
             if(chr == 32 && !sbu.isEmpty() || i==0 && !sbu.isEmpty())
             {
                 //System.out.print(sbu+" ");
-                req = req+sbu+" ";
+                req = req+" "+sbu;
 
                 len2 = sbu.length();
 
@@ -84,7 +84,8 @@ public class PalindromeREVERSE {
             }
         }
         // Remove the extra whitespace at the end
-        System.out.println(req.replaceAll("\\s+$", ""));
+        //System.out.println(req.replaceAll("\\s+$", "")); // REGEX METHOD
+        System.out.println(req.trim()); //trim function that comes standard with strings
     }
 
     public static void main(String[] args) {
