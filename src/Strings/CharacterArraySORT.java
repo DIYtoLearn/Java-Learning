@@ -85,8 +85,8 @@ public class CharacterArraySORT {
 
 
     public static void main(String[] args) {
-        Bubble("dba");
-        selection("check");
+        //Bubble("dba");
+        //selection("check");
         counting("zedd");
     }
 }
