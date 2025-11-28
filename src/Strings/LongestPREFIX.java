@@ -19,11 +19,34 @@ class PrefixCalc{
 
     protected String longestCommonPrefix()
     {
+        int[] c1 = new int[26];
+
+        int size = str.length;
+        int len;
+        int x = 'A';
+        int ch;
+        String nw = "";
+
+        for(int i=0; i<size; i++)
+        {
+            len = str[i].length();
+            nw = str[i];
+            for(int j=0; j<len; j++)
+            {
+                ch = nw.charAt(j);
+                c1[ch-x]++;
+            }
+        }
+
+        for(int x2: c1)
+        {
+            System.out.print(x2+" ");
+
+        }
 
         return "noddy";
 
     }
-
 }
 
 
