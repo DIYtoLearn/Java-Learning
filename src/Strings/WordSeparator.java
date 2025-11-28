@@ -1,9 +1,13 @@
 package Strings;
 
+import java.util.Scanner;
+
 public class WordSeparator {
     public static void main(String[] args) {
 
-        String str = " bye ! gg ";
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter String: ");
+        String str = sc.nextLine();
 
         String trimmed = str.trim();
 
@@ -13,13 +17,9 @@ public class WordSeparator {
 
         String[] words = trimmed.split("\\s+");
 
-        System.out.println(words[0]+" "+words[1]);//+" "+words[2]+" "+words[3]+" "+words[4]);
+        //System.out.println(words[0]+" "+words[1]);//+" "+words[2]+" "+words[3]+" "+words[4]);
         System.out.println(words.length);
-
-    // ADD EXCEPTION HANDLING FOR empty string to stop the code execution error be handled by OS
-        // OS error Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-        //	at Strings.WordSeparator.main(WordSeparator.java:15)
-
-        // ANOTHER PROBLEM WITH this solution is it counts special characters as a word as well
+        
+        // A PROBLEM WITH this solution is it counts special characters as a word as well
     }
 }
