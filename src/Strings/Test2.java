@@ -44,8 +44,10 @@ class solution3
         int count = 0;
         for(int i=0; i<26; i++)
         {
-            if(c1[i] != c2[i])
-                count++;
+//            if(c1[i] != c2[i])
+//                count++;
+            count += Math.abs(c1[i] - c2[i]);
+
 
         }
         System.out.println(count);
@@ -56,7 +58,7 @@ class solution3
 public class Test2 {
     public static void main(String[] args) {
 
-        new solution3("zeta", "mzeta");
+        new solution3("geeksforgeeks", "geeksforgeekscoursesgeeks");
 
         solution3.Countchars();
     }
