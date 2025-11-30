@@ -19,32 +19,47 @@ class PrefixCalc{
 
     protected String longestCommonPrefix()
     {
-        int[] c1 = new int[26];
+      int arr_size = str.length;
+      int len = str[1].length();
+      int len2;
+      int max;
+      String sub_req = "";
+      int req_index = -1;
 
-        int size = str.length;
-        int len;
-        int x = 'A';
-        int ch;
-        String nw = "";
+      for(int i=1; i<arr_size; i++)
+      {
+          len2 = str[i].length();
+          max = Math.max(len, len2);
 
-        for(int i=0; i<size; i++)
+          for(int j=0; j<max; j++)
+          {
+              if(j<len && j<len2) {
+                  if (str[i].charAt(j) != str[1].charAt(j))
+                  {
+                      break;
+
+                  }
+
+                  else
+                  {
+                      req_index = j;
+                  }
+              }
+          }
+      }
+        if(req_index < 0)
         {
-            len = str[i].length();
-            nw = str[i];
-            for(int j=0; j<len; j++)
-            {
-                ch = nw.charAt(j);
-                c1[ch-x]++;
-            }
+            System.out.println(req_index);
+            return "";
         }
 
-        for(int x2: c1)
+        else
         {
-            System.out.print(x2+" ");
+            System.out.println(req_index);
+            sub_req += str[1].substring(0, req_index + 1);
 
+            return sub_req;
         }
-
-        return "noddy";
 
     }
 }
@@ -69,7 +84,9 @@ public class LongestPREFIX {
 //            System.out.print(x+" ");
 //        }
 
-        String[] str2 = {"HELLO","YELLOW", "GALLON", "MELLOW"};
+        String[] str2 = {"dog","racecar","car"};
+
+                //{"flower","flow","flight"};
 
         PrefixCalc pc = new PrefixCalc(str2);
         String req = pc.longestCommonPrefix();
