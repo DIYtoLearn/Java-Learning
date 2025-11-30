@@ -71,6 +71,8 @@ public class LongestPREFIX {
 
     public static void main(String[] args) {
 
+
+//          For INPUT
 //        Scanner sc = new Scanner(System.in);
 //        int size = 4;
 //        String[] str = new String[size];
@@ -81,6 +83,7 @@ public class LongestPREFIX {
 //            str[i] = sc.nextLine();
 //        }
 
+            // FOR printing the INPUT to double check
 //        for(String x : str)
 //        {
 //            System.out.print(x+" ");
