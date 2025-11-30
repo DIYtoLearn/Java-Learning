@@ -67,7 +67,6 @@ class PrefixCalc{
     }
 }
 
-
 public class LongestPREFIX {
 
     public static void main(String[] args) {
@@ -91,7 +90,6 @@ public class LongestPREFIX {
 
                 //{"dog","racecar","car"};
                 //{"flower","flow","flight"};
-
 
         PrefixCalc pc = new PrefixCalc(str2);
         String req = pc.longestCommonPrefix();
