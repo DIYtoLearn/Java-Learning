@@ -1,7 +1,7 @@
 package Arrays;
 
 class Solution {
-    int missingNum(int arr[]) {
+    int missingNum(int[] arr) {
         int len = arr.length+1;
         int sum = 0;
         int sum2 = 0;
