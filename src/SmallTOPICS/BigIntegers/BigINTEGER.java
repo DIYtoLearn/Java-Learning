@@ -66,6 +66,8 @@ public class BigINTEGER {
     public static void main(String[] args) {
 
         BigInteger bi3 = new BigInteger("81");
+        String str2 = bi3.toString();
+        System.out.println(str2);
 
         int c = 134;
         BigInteger bi2 = BigInteger.valueOf(c);
@@ -76,10 +78,10 @@ public class BigINTEGER {
         //System.out.println(bi+" "+bi2+" "+bi3);
 
         operation op = new operation(bi);
-        op.OperationsPOSSIBLE();
+        //op.OperationsPOSSIBLE();
 
         operation op2 = new operation();
         //op2.factorial();
-        op2.factorial2();
+        //op2.factorial2();
     }
 }
