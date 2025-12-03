@@ -1,5 +1,4 @@
 package Strings;
-
 /*
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
@@ -7,11 +6,9 @@ Output: "fl"
 Input: strs = ["dog","racecar","car"]
 Output: ""
 
-Our task is to find that longest prefix in a given string arrays
- */
+Our task is to find that longest prefix in a given string arrays */
 
 import java.util.Scanner;
-
 class PrefixCalc{
     String[] str;
 
@@ -59,11 +56,10 @@ class PrefixCalc{
             else
             {
                 System.out.println(req_index);
-                sub_req += str[1].substring(0, req_index + 1);
+                sub_req += str[0].substring(0, req_index + 1);
 
                 return sub_req;
             }
-
     }
 }
 
@@ -89,8 +85,9 @@ public class LongestPREFIX {
 //            System.out.print(x+" ");
 //        }
 
-        String[] str2 = {"dog","racecar","car"};
-
+        String[] str2 = {"geeksforgeeks", "geeks", "geek", "geezer"};
+                //{"hello", "world"};
+                //{"geeksforgeeks", "geeks", "geek", "geezer"};
                 //{"dog","racecar","car"};
                 //{"flower","flow","flight"};
 
