@@ -12,6 +12,7 @@ class Search
         {
             if(arr[mid] == target)
             {
+                mid+=1; // To start indexing from 1
                 System.out.println("index = "+mid);
                 found = true;
                 break;
@@ -81,6 +82,6 @@ public class BinarySearch {
         int[] in = ic.Input();
 
         Search sc2 = new Search();
-        sc2.bs(11,in);
+        sc2.bs(1,in);
     }
 }
