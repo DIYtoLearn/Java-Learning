@@ -6,13 +6,54 @@ No Duplicates as well will be there is the sorted range
 
 Algorithm thinking
 arr[] = {2,4,6,7,9,10,11,23,45,446}
+        {0 1 2 3 4 5  6  7  8   9} INDEXING
 
+===1st===
 low = 0
 high = arr.length - 1;
 mid = low + high / 2;
-
-if
-
-
-target = 9
+===TO-Do===
+target = 11
 update low, high and mid depending on the target
+===CHECK===
+arr[mid] = 9 == target = 11 ? FALSE
+low = 0, high = 9, mid = 4
+arr[mid] = 9 < target = 11
+===UPDATE===
+low = 4+1 = 5
+high = 9
+mid = 7
+Current Search {10,11,23,45,446}
+
+===2nd===
+low = 5
+high = 9
+mid = 7
+===CHECK===
+arr[mid] = 23 == target = 11 ? FALSE
+arr[mid] = 23 > target = 11
+===UPDATE===
+high = 7-1 = 6
+low = 5
+mid = 5
+Current Search {10,11}
+
+===3rd===
+high = 6
+low = 5
+mid = 5
+===CHECK===
+arr[mid] = 10 == target = 11 ? FALSE
+arr[mid] = 10 < target = 11
+===UPDATE===
+low = 5+1 = 6
+high = 6
+mid = (6+6)/2 = 6
+
+===4th===
+low = 6
+high = 6
+mid = 6
+===CHECK===
+arr[mid] = 11 == target = 11 ? TRUE
+print mid index, break out of while
