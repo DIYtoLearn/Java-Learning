@@ -1,0 +1,18 @@
+Binary Search
+
+Only applicable when the Range where are searching is SORTED
+No Duplicates as well will be there is the sorted range
+
+
+Algorithm thinking
+arr[] = {2,4,6,7,9,10,11,23,45,446}
+
+low = 0
+high = arr.length - 1;
+mid = low + high / 2;
+
+if
+
+
+target = 9
+update low, high and mid depending on the target

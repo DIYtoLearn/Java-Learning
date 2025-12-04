@@ -70,6 +70,7 @@ class PrefixCalc{
             return str[0] == null ? "" : str[0];
 
         // Comparing the array elements column wise
+        // All the letter's in the string array must be in lower or upper case for the algorithm to work !
         String first = str[0];
         int len = first.length();
 
