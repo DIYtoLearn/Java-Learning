@@ -61,6 +61,30 @@ class PrefixCalc{
                 return sub_req;
             }
     }
+
+    protected String longestCommonPrefixViaColumn()
+    {
+        if(str == null || str.length == 0)
+            return "";
+        if(str.length == 1)
+            return str[0] == null ? "" : str[0];
+
+        // Comparing the array elements column wise
+        String first = str[0];
+        int len = first.length();
+
+            for(int i=0; i<len; i++)
+            {
+                char c = first.charAt(i);
+                for(int j=1; j<str.length; j++)
+                {
+                    if(str[j].charAt(i) != c || i >= str[j].length() || str[j] == null )
+                        return first.substring(0,i);
+
+                }
+            }
+        return  first;
+    }
 }
 
 public class LongestPREFIX {
@@ -85,14 +109,14 @@ public class LongestPREFIX {
 //            System.out.print(x+" ");
 //        }
 
-        String[] str2 = {"geeksforgeeks", "geeks", "geek", "geezer"};
+        String[] str2 = {"Gee", "geeks", "geeks", "geeks"};
                 //{"hello", "world"};
                 //{"geeksforgeeks", "geeks", "geek", "geezer"};
                 //{"dog","racecar","car"};
                 //{"flower","flow","flight"};
 
         PrefixCalc pc = new PrefixCalc(str2);
-        String req = pc.longestCommonPrefix();
+        String req = pc.longestCommonPrefixViaColumn();
 
         System.out.println(req);
 
