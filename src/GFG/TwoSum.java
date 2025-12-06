@@ -83,7 +83,8 @@ public class TwoSum
         //System.out.println(bool);
 
 
-        int[] arr2 = {6, 1, 8, 0, 4, -9, -1, -10, -6, -5};
+        int[] arr2 = {-1, 0, 1, 2, -1, -4};
+                //{6, 1, 8, 0, 4, -9, -1, -10, -6, -5};
         int target3 = 0;   // or use target2 = 0, etc.
 
         ArrayList<List<Integer>> result = getPairs(arr2, target3);
