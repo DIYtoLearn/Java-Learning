@@ -2,7 +2,60 @@ macbook root user password root1234
 windows root user password root
 
 
-
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
 
 
 mysql -u root -p practise < ~/Users/adrijadatta/Desktop/Upayan/Java-Learning/src/Database_PRACTISE/alldb.sql
+
+
+Stop mysql auto launch and then flush provelage to enter mysql via password
+
+admin@Mac-GMP mysql % sudo launchctl list | grep -i mysql
+62565	-9	com.oracle.oss.mysql.mysqld
+admin@Mac-GMP mysql % ls /Library/LaunchDaemons | grep -i mysql
+com.oracle.oss.mysql.mysqld.plist
+admin@Mac-GMP mysql % sudo launchctl unload -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+admin@Mac-GMP mysql % ps aux | grep -i mysqld
+admin            62717   0.0  0.0 34121160    732 s000  S+    7:23PM   0:00.00 grep -i mysqld
+admin@Mac-GMP mysql % cd /usr/local/mysql
+sudo bin/mysqld_safe --skip-grant-tables --skip-networking --datadir=/usr/local/mysql/data --socket=/tmp/mysql.sock &
+[1] 62718
+admin@Mac-GMP mysql % 2025-12-06T13:53:59.6NZ mysqld_safe Logging to '/usr/local/mysql/data/Mac-GMP.local.err'.
+2025-12-06T13:53:59.6NZ mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+mysql -u root --socket=/tmp/mysql.sock
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 9.5.0 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected, 1 warning (0.007 sec)
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
+Query OK, 0 rows affected (0.008 sec)
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected, 1 warning (0.002 sec)
+
+mysql> exit;
+Bye
+
+Setting the auto launch option back to normal
+admin@Mac-GMP mysql % ps aux | grep -i mysqld
+_mysql           62836   0.4  2.8 34908548 473656 s000  SN    7:23PM   0:01.42 /usr/local/mysql-9.5.0-macos15-x86_64/bin/mysqld --basedir=/usr/local/mysql-9.5.0-macos15-x86_64 --datadir=/usr/local/mysql/data --plugin-dir=/usr/local/mysql-9.5.0-macos15-x86_64/lib/plugin --user=mysql --skip-grant-tables --skip-networking --log-error=Mac-GMP.local.err --pid-file=Mac-GMP.local.pid --socket=/tmp/mysql.sock
+admin            62873   0.0  0.0 34121160    732 s000  S+    7:26PM   0:00.00 grep -i mysqld
+root             62719   0.0  0.0 34132960   1380 s000  SN    7:23PM   0:00.03 /bin/sh bin/mysqld_safe --skip-grant-tables --skip-networking --datadir=/usr/local/mysql/data --socket=/tmp/mysql.sock
+root             62718   0.0  0.0 34151572   3612 s000  SN    7:23PM   0:00.02 sudo bin/mysqld_safe --skip-grant-tables --skip-networking --datadir=/usr/local/mysql/data --socket=/tmp/mysql.sock
+admin@Mac-GMP mysql % sudo kill -9 62718 62719
+[1]  + killed     sudo bin/mysqld_safe --skip-grant-tables --skip-networking
+admin@Mac-GMP mysql % ps aux | grep -i mysqld
+_mysql           62836   0.4  2.8 34908548 473656 s000  SN    7:23PM   0:01.66 /usr/local/mysql-9.5.0-macos15-x86_64/bin/mysqld --basedir=/usr/local/mysql-9.5.0-macos15-x86_64 --datadir=/usr/local/mysql/data --plugin-dir=/usr/local/mysql-9.5.0-macos15-x86_64/lib/plugin --user=mysql --skip-grant-tables --skip-networking --log-error=Mac-GMP.local.err --pid-file=Mac-GMP.local.pid --socket=/tmp/mysql.sock
+admin            62878   0.0  0.0 34121160    732 s000  S+    7:27PM   0:00.00 grep -i mysqld
+admin@Mac-GMP mysql % sudo launchctl load -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
