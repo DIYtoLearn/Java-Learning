@@ -20,12 +20,15 @@ public class TwoSum
                 int pair_sum = 0;
                 for (int i = 0; i < arr.length - 1; i++)
                 {
+                    if(bool == true)
+                        break;
+                    
                     for(int j=i+1; j < arr.length ; j++)
                     {
                         pair_sum = arr[i] + arr[j];
                         if(pair_sum == target2)
                         {
-                            System.out.println(Math.max(arr[i],arr[j])+" "+Math.min(arr[i],arr[j]));
+                            System.out.println(Math.min(arr[i],arr[j])+" "+Math.max(arr[i],arr[j]));
                             bool = true;
                             break;
                         }
