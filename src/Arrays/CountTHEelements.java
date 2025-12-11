@@ -41,20 +41,11 @@ class CountEl
                 new_index++;
             }
         }
-        System.out.println(new_index);
+        //System.out.println(new_index);
 
         int[] required = new int[new_index];
-        for(int x:count)
-        {
-            int nn = 0;
-            if(x != 0)
-            {
-                required[nn] = x;
-                nn++;
-            }
-        }
 
-        return required;
+        return count;
 
     }
 }
