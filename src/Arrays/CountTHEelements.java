@@ -43,9 +43,8 @@ class CountEl
         }
         //System.out.println(new_index);
 
-        int[] required = new int[new_index];
-
         return count;
+
 
     }
 }
@@ -55,14 +54,16 @@ class CountEl
 public class CountTHEelements {
     public static void main(String[] args) {
 
-        int[] arr = {1,1,5,5};
+        int[] arr = {4 ,10, 2 ,9, 3, 4, 1, 9, 8};
+                //{1,1,5,5};
                 //{4,1,2};
-        int[] arr2 = {0,1,2,3};
+        int[] arr2 = {7 ,3, 9, 2, 10, 10, 3, 4, 4};
+                //{0,1,2,3};
                 //{1,7,3};
         int size = arr.length;
 
-        int query_element = 4;
-        int[] query_array = {0,1,2,3};
+        int query_element = 2;
+        int[] query_array = {0,1};
                 //{0,1};
 
         CountEl Cel = new CountEl();
