@@ -59,3 +59,10 @@ admin@Mac-GMP mysql % ps aux | grep -i mysqld
 _mysql           62836   0.4  2.8 34908548 473656 s000  SN    7:23PM   0:01.66 /usr/local/mysql-9.5.0-macos15-x86_64/bin/mysqld --basedir=/usr/local/mysql-9.5.0-macos15-x86_64 --datadir=/usr/local/mysql/data --plugin-dir=/usr/local/mysql-9.5.0-macos15-x86_64/lib/plugin --user=mysql --skip-grant-tables --skip-networking --log-error=Mac-GMP.local.err --pid-file=Mac-GMP.local.pid --socket=/tmp/mysql.sock
 admin            62878   0.0  0.0 34121160    732 s000  S+    7:27PM   0:00.00 grep -i mysqld
 admin@Mac-GMP mysql % sudo launchctl load -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+
+
+
+Replicate Database
+
+Windows
+Get-Content Practise.sql | mysql -u root -p Practise
