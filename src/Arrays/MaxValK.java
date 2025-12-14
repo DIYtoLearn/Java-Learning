@@ -17,20 +17,31 @@ class ValOfK
         System.out.println();
 
         // Write your code here
-        // Easiest brute force Double array method with a count
+        int len = arr.length;
+        int array_elements_remaining;
 
+        for(int i=0; i<len; i++)
+        {
+            if(arr[i] < len)
+            {
+                array_elements_remaining = len - i;
+                if(array_elements_remaining == arr[i] || (len-arr[i]) == arr[i])
+                    return arr[i];
+            }
+        }
 
         return 0;
-
-
     }
 }
 
 public class MaxValK {
     public static void main(String[] args) {
-        int[] arra = {2, 3, 4, 5, 6, 7};
+        int[] arra = {1 ,2 ,3 ,4};
+                //{2, 3, 4, 5, 6, 7};
         ValOfK vk = new ValOfK(arra);
         int output = ValOfK.findMaximumNum();
+
+        System.out.println(output);
 
     }
 }
