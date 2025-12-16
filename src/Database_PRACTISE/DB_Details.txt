@@ -8,7 +8,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
 mysql -u root -p practise < ~/Users/adrijadatta/Desktop/Upayan/Java-Learning/src/Database_PRACTISE/alldb.sql
 
 
-Stop mysql auto launch and then flush provelage to enter mysql via password
+Stop mysql auto launch and then flush privelage to enter mysql via password
 
 admin@Mac-GMP mysql % sudo launchctl list | grep -i mysql
 62565	-9	com.oracle.oss.mysql.mysqld
