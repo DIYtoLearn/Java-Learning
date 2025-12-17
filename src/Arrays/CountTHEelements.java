@@ -18,33 +18,21 @@ class CountEl
 {
     protected int[] Element(int[] a, int[] b, int n, int[] query, int q)
     {
-        int[] count = new int[n];
+        int[] count = new int[q];
         int index = 0;
-        int new_index=-1;
 
-        for(int i=0; i<query.length; i++)
+        for(int i=0; i<q; i++)
         {
-            if(i >= n)
-            {
-                return count;
-            }
-
-            else
-            {
                 for(int j=0; j<n; j++)
                 {
-                    if(b[j] <= a[i])
+                    if(b[j] <= a[query[i]])
                         count[index]++;
 
                 }
                 index++;
-                new_index++;
-            }
         }
-        //System.out.println(new_index);
 
         return count;
-
 
     }
 }
@@ -54,10 +42,12 @@ class CountEl
 public class CountTHEelements {
     public static void main(String[] args) {
 
-        int[] arr = {4 ,10, 2 ,9, 3, 4, 1, 9, 8};
+        int[] arr = {4,1,2};
+                //{4 ,10, 2 ,9, 3, 4, 1, 9, 8};
                 //{1,1,5,5};
                 //{4,1,2};
-        int[] arr2 = {7 ,3, 9, 2, 10, 10, 3, 4, 4};
+        int[] arr2 = {1,7,3};
+                //{7 ,3, 9, 2, 10, 10, 3, 4, 4};
                 //{0,1,2,3};
                 //{1,7,3};
         int size = arr.length;

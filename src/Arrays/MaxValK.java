@@ -1,5 +1,6 @@
 package Arrays;
-
+// Not working Logic for the problem
+// https://www.geeksforgeeks.org/problems/count-the-elements1529/1
 class ValOfK
 {
     static int[] arr;
