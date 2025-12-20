@@ -1,5 +1,5 @@
 package Recursion;
-//Check if a string is palindrome using recursion.
+//Iterator if a string is palindrome using recursion.
 
 import java.util.Scanner;
 public class Rec_5 {

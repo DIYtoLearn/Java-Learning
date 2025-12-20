@@ -35,7 +35,7 @@ class Distinct_elements {
             for (int j = 0; j < N; j++) {
                 int currentElement = M[i][j];
 
-                // Step 3: Check if the element was present in the *immediately preceding* row.
+                // Step 3: Iterator if the element was present in the *immediately preceding* row.
                 // The condition `map.get(currentElement) == i - 1` is key. It ensures that an
                 // element has successfully appeared in all rows up to this point.
                 if (map.containsKey(currentElement) && map.get(currentElement) == i - 1) {
