@@ -1,5 +1,6 @@
 package Lists.ArrayLists;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Declare {
     public static void main(String[] args) {
@@ -29,6 +30,10 @@ public class Declare {
         System.out.println(al.lastIndexOf(24)); // Returns -1 if the object is not present in the array List
         al.sort(null);
         System.out.println(al);
+        al.sort((a,b) ->b - a);
+        System.out.println(al);
+        Collections.sort(al, Collections.reverseOrder());
+        System.out.println(al.reversed());
 
         // Deletes all the elements in the ArrayList
         if(al.contains(111))
@@ -36,6 +41,5 @@ public class Declare {
             al.clear();
             System.out.println(al.isEmpty());
         }
-
     }
 }
