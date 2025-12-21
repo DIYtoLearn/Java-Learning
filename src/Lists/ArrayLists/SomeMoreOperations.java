@@ -38,7 +38,7 @@ import java.util.ArrayList;
             Collections.reverse(al); // Collection method to reverse
             System.out.println(al);
 
-            
+
             // Manual logic (swapping elements)
             for (int i = 0; i < al.size() / 2; i++)
             {
