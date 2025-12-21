@@ -13,7 +13,7 @@ public class Declare {
         al.add(24);
 
         int len = al.size();
-        System.out.println(len);
+        System.out.println("SIZE of ArrayList "+len);
         //System.out.println(al.get(3));
         for(int i=0; i<len; i++)
         {
@@ -28,12 +28,7 @@ public class Declare {
         System.out.println(al.indexOf(11)); // Returns -1 if the object is not present in the array List
         System.out.println(al.indexOf(24));
         System.out.println(al.lastIndexOf(24)); // Returns -1 if the object is not present in the array List
-        al.sort(null);
-        System.out.println(al);
-        al.sort((a,b) ->b - a);
-        System.out.println(al);
-        Collections.sort(al, Collections.reverseOrder());
-        System.out.println(al.reversed());
+        System.out.println("After All operations the Status of the ArrayList "+al);
 
         // Deletes all the elements in the ArrayList
         if(al.contains(111))
