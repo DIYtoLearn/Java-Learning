@@ -2,8 +2,10 @@ package Lists.ArrayLists;
 import java.util.Collections;
 import java.util.ArrayList;
 
-    public class SomeMoreOperations {
-        public static void main(String[] args) {
+    public class SomeMoreOperations
+    {
+        public static void main(String[] args)
+        {
 
             ArrayList<Integer> al = new ArrayList<>();
 
