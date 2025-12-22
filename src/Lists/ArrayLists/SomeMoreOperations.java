@@ -20,23 +20,23 @@ import java.util.ArrayList;
 
             // These methods works best for ArrayLists
             al.sort(null); // Sorts the Arraylist in ascending order
-            System.out.println(al);
+            System.out.println("al.sort ASC  "+al);
 
             al.sort((a,b) ->b - a); // Sorts the Arraylist in descending order
-            System.out.println(al);
+            System.out.println("al.sort DESC  "+al);
 
             //This is the most common helper method. It works on any List (ArrayList, LinkedList, etc.).
             Collections.sort(al); // Ascending Order
-            System.out.println(al);
+            System.out.println("Collections.sort ASC  "+al);
 
             Collections.sort(al, Collections.reverseOrder()); // Descending Order
-            System.out.println(al.reversed());
+            System.out.println("Collections.sort(al, Collections.reverseOrder()) DESC  "+al.reversed());
 
             // Reversing An arraylist
-            System.out.println(al.reversed()); // Arraylist method to reverse
+            System.out.println("al.reversed()  "+al.reversed()); // Arraylist method to reverse
 
             Collections.reverse(al); // Collection method to reverse
-            System.out.println(al);
+            System.out.println("Collections.reverse(al)  "+al);
 
 
             // Manual logic (swapping elements)
@@ -49,7 +49,7 @@ import java.util.ArrayList;
                 al.set(i, al.get(indexFromEnd));
                 al.set(indexFromEnd, temp);
             }
-            System.out.println(al);
+            System.out.println("Manual logic swapping elements AKA reverse an arrayLIST "+al);
 
         }
     }
