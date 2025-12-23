@@ -17,7 +17,7 @@ class AllSolution {
         }
 
         return max;
-        
+
     }
 
     public static int minimumElement(ArrayList<Integer> arr) {
