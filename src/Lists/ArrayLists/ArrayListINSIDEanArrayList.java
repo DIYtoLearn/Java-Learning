@@ -66,7 +66,6 @@ class alltheways
         System.out.println(arr2);
 
     }
-
 }
 
 
@@ -78,8 +77,8 @@ class AlltheACCESSways
     {
 
 
-    }
 
+    }
 }
 
 
