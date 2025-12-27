@@ -33,6 +33,7 @@ public class test {
         int space = 0;
         int len = str.length();
         int x;
+        System.out.println(str.toUpperCase());
 
         for (int i = 0; i < len; i++) {
             x = str.charAt(i);
