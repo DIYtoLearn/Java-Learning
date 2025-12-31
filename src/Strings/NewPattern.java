@@ -14,8 +14,8 @@ class Geeks {
 
         if(s.charAt(0) == 'y')
             return 0;
-
-        while(int i<len)
+        int i=0;
+        while(i<len)
         {
             if(s.charAt(i) == 'x')
                 arr[23]++;
