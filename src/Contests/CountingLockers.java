@@ -4,7 +4,7 @@ class HighSchoolLockers
 {
     public static int closedLockers(int n, int m)
     {
-        int[] arr = new int[n];
+        //int[] arr = new int[n];
         int len;
 
         if(m==0)
@@ -16,7 +16,7 @@ class HighSchoolLockers
 
         for(int i=1; i<=len; i++)
         {
-            arr[(m*i)-1]++;
+            //arr[(m*i)-1]++;
             count++;
         }
 
@@ -27,7 +27,7 @@ class HighSchoolLockers
 
 public class CountingLockers {
     public static void main(String[] args) {
-        int count_req = HighSchoolLockers.closedLockers(10,2);
+        int count_req = HighSchoolLockers.closedLockers(12,3);
         System.out.println("Closed Lockers "+count_req);
 
     }
