@@ -53,7 +53,7 @@ class BigFIBO {
 class checking {
     public static void main(String[] args) {
 
-        BigInteger bii = new BigInteger("3");
+        BigInteger bii = new BigInteger("1203201049912091499283294882931882919849174934295739281010010001415010592853098525");
         BigFIBO bF = new BigFIBO(bii);
         bF.FiboSeries();
 
