@@ -9,34 +9,51 @@ class BigFIBO {
         bii = _bii;
     }
 
-    // 0 1 1 2 3 5 8 13 21 34 55 89 144
+    //1 1 2 3 5 8 13 21 34 55 89 144
     protected void FiboSeries()
     {
-        BigInteger a = new BigInteger("0");
-        BigInteger b = new BigInteger("1");
-        BigInteger c = new BigInteger("1");
 
-        int converting =  bii.intValue();
-        //System.out.print("1 1 ");
-
-        for(int i=3; i<=converting; i++)
+        // check
+        if(bii.compareTo(BigInteger.TWO) < 0 || bii.compareTo(BigInteger.TWO) == 0)
         {
-            a = b.add(c);
-            b = c;
-            c = a;
-
-            System.out.println(a);
+            if(bii.compareTo(BigInteger.ONE) < 0)
+            {
+                System.out.println("Invalid Input");
+            }
+            else
+                System.out.println(1);
 
         }
-        System.out.println();
-        System.out.println("nth Fibo number "+a);
+
+        else {
+
+
+            BigInteger a = new BigInteger("0");
+            BigInteger b = new BigInteger("1");
+            BigInteger c = new BigInteger("1");
+
+            //System.out.print("1 1 "); // Un comment this if you want to print the fibonacci series
+
+            BigInteger i;
+            for (i = new BigInteger("2"); i.compareTo(bii) < 0; i= i.add(BigInteger.ONE)) {
+
+                a = b.add(c);
+                b = c;
+                c = a;
+
+                //System.out.println(a); // Un comment this if you want to print the fibonacci series
+
+            }
+            System.out.println();
+            System.out.println("nth Fibo number " + a);
+        }
     }
 }
 
 class checking {
     public static void main(String[] args) {
 
-        BigInteger bii = new BigInteger("1000000000");
+        BigInteger bii = new BigInteger("3");
         BigFIBO bF = new BigFIBO(bii);
         bF.FiboSeries();
 
