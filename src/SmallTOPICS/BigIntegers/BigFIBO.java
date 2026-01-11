@@ -61,7 +61,7 @@ class BigFIBO {
 class checking {
     public static void main(String[] args) {
 
-        BigInteger bii = new BigInteger("2");
+        BigInteger bii = new BigInteger("200");
         BigFIBO bF = new BigFIBO(bii);
         bF.FiboSeries();
 
