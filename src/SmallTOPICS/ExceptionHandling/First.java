@@ -5,14 +5,12 @@ package SmallTOPICS.ExceptionHandling;
             System.out.println("Inside Main Method");
             First fs = new First();
             fs.MethodA();
-
         }
 
         protected void MethodA()
         {
             System.out.println("Inside Method A");
             MethodB();
-
         }
 
         protected static void MethodB()
