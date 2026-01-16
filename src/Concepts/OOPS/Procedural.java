@@ -18,8 +18,8 @@ package Concepts.OOPS;
 
         void Add(complex c)
         {
-            real = real + c.real;
-            imaginary = imaginary + c.imaginary;
+            this.real +=  c.real;
+            this.imaginary +=  c.imaginary;
         }
     }
 
@@ -29,7 +29,6 @@ public class Procedural {
         c1.print();
         c1.Add(new complex(30,20));
         c1.print();
-
 
     }
 }
