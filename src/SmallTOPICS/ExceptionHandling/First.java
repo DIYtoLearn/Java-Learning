@@ -60,9 +60,9 @@ package SmallTOPICS.ExceptionHandling;
                 arr[2] = b;
             }
             catch (IndexOutOfBoundsException e) // This is noting but writing IndexOutOfBoundsException e = new IndexOutOfBoundsException();
-                    // All the unchecked exception inherit from the parent class Exception
-            {
-                System.out.println("Exception Handled in C "+ e.getMessage());
+                    // All the unchecked exception inherit from the class RunException which inherits from Exception
+            { // It is not necessary to have any lines of code inside of the catch block like we have done below
+                //System.out.println("Exception Handled in C "+ e.getMessage());
             }
             finally
             {
@@ -78,7 +78,7 @@ package SmallTOPICS.ExceptionHandling;
             System.out.println("Method D started");
             int a = 10/0; // Diving a number by 0 will result in arithmetic exception
             System.out.println("error line "+a);
-            // In this method nothing will be executed after the previous error line of code because the exception handling is not done here instead it is done on method A
+            // In this method nothing will be executed after the previous error line of code because the exception handling is not done here instead it is done in method A
             // Same would have if we would have not done exception handling for the error line of code in Method C
             System.out.println("Method D executed");
         }
