@@ -6,7 +6,8 @@ import java.io.IOException;
 
 public class File_read {
     public static void main(String[] args) {
-        String filePath = "D:\\GATE material\\Rndm_Docs\\Finance\\New Revised Plan.txt"; // or "data.csv"
+        String filePath = "C:\\Users\\Upayan\\Desktop\\read.txt";
+                //"D:\\GATE material\\Rndm_Docs\\Finance\\New Revised Plan.txt"; // or "data.csv"
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -15,7 +16,7 @@ public class File_read {
                 System.out.println(line);
             }
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

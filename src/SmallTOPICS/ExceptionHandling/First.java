@@ -76,8 +76,8 @@ package SmallTOPICS.ExceptionHandling;
         protected void MethodD()
         {
             System.out.println("Method D started");
-            int a = 10/0; // Diving a number by 0 will result in arithmetic exception
-            System.out.println("error line "+a);
+            //int a = 10/0; // Diving a number by 0 will result in arithmetic exception
+            System.out.println("error line ");
             // In this method nothing will be executed after the previous error line of code because the exception handling is not done here instead it is done in method A
             // Same would have if we would have not done exception handling for the error line of code in Method C
             System.out.println("Method D executed");
