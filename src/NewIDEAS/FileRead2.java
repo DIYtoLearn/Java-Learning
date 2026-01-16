@@ -18,7 +18,9 @@ class Reader
 
     protected int readfromFile() throws FileNotFoundException
     {
-        Scanner sc = new Scanner(new File("C:\\Users\\Upayan\\Desktop\\read.txt"));
+        Scanner sc = new Scanner(new File("/Users/admin/Desktop/read"));
+        // For Mac "/Users/admin/Desktop/read"
+        // For windows "C:\\Users\\Upayan\\Desktop\\read.txt"
         int req = 0;
         while(sc.hasNext()) {
             int each = sc.nextInt();
