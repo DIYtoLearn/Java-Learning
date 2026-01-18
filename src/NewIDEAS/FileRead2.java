@@ -18,7 +18,7 @@ class Reader
 
     protected void readfromFile() throws FileNotFoundException
     {
-        Scanner sc = new Scanner(new File("/Users/admin/Desktop/read1"));
+        Scanner sc = new Scanner(new File("/Users/admin/Desktop/read"));
         // For Mac "/Users/admin/Desktop/read"
         // For windows "C:\\Users\\Upayan\\Desktop\\read.txt"
         int req = 0;
@@ -49,7 +49,6 @@ public class FileRead2 {
         {
             System.out.println("Check if the file path or if the file is present at the desired location !!");
         }
-
 
         //System.out.println("We got this via get method "+rr.getClassvariable());
     }
