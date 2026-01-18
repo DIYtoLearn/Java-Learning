@@ -16,9 +16,9 @@ class Reader
         return classvariable;
     }
 
-    protected int readfromFile() throws FileNotFoundException
+    protected void readfromFile() throws FileNotFoundException
     {
-        Scanner sc = new Scanner(new File("/Users/admin/Desktop/read"));
+        Scanner sc = new Scanner(new File("/Users/admin/Desktop/read1"));
         // For Mac "/Users/admin/Desktop/read"
         // For windows "C:\\Users\\Upayan\\Desktop\\read.txt"
         int req = 0;
@@ -27,7 +27,7 @@ class Reader
             System.out.println(each);
             req = returnSumInFile(each);
         }
-        return req;
+        System.out.println("Final Sum = "+req);
     }
 
     protected static int returnSumInFile(int n)
@@ -41,16 +41,16 @@ public class FileRead2 {
     public static void main(String[] args)  {
 
         Reader rr = new Reader();
-        int val=0;
+
         try {
-            val = rr.readfromFile();
+            rr.readfromFile();
         }
         catch (Exception e)
         {
             System.out.println("Check if the file path or if the file is present at the desired location !!");
         }
 
-        System.out.println("Final Sum = "+val);
-        System.out.println("We got this via get method "+rr.getClassvariable());
+
+        //System.out.println("We got this via get method "+rr.getClassvariable());
     }
 }
