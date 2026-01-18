@@ -16,9 +16,9 @@ class Reader
         return classvariable;
     }
 
-    protected void readfromFile() throws FileNotFoundException
+    protected void readfromFile() throws Exception
     {
-        Scanner sc = new Scanner(new File("/Users/admin/Desktop/read"));
+        Scanner sc = new Scanner(new File("/Users/admin/Desktop/read1"));
         // For Mac "/Users/admin/Desktop/read"
         // For windows "C:\\Users\\Upayan\\Desktop\\read.txt"
         int req = 0;
@@ -44,12 +44,12 @@ public class FileRead2 {
 
         try {
             rr.readfromFile();
+            System.out.println("We got this via get method "+rr.getClassvariable()); // This line will not be executed if an exception occurs in the previous line
         }
         catch (Exception e)
         {
             System.out.println("Check if the file path or if the file is present at the desired location !!\n"+e.getMessage());
         }
 
-        System.out.println("We got this via get method "+rr.getClassvariable());
     }
 }
