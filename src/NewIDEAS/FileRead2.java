@@ -47,9 +47,9 @@ public class FileRead2 {
         }
         catch (Exception e)
         {
-            System.out.println("Check if the file path or if the file is present at the desired location !!");
+            System.out.println("Check if the file path or if the file is present at the desired location !!\n"+e.getMessage());
         }
 
-        //System.out.println("We got this via get method "+rr.getClassvariable());
+        System.out.println("We got this via get method "+rr.getClassvariable());
     }
 }
