@@ -2,9 +2,10 @@ package SmallTOPICS.ExceptionHandling;
 
 class throwshow
 {
-    static int divide(int a, int b) {
+    static int divide(int a, int b) throws Exception, ArithmeticException{ // Can declare multiple exceptions comma-separated
         if(b==0)
-            throw new ArithmeticException("Cannot divide by 0");
+            throw new Exception("Cannot divide by 0"); // We throw this exception here
+        // If we replace Exception with Arithmetic Exception then we do not need to add the statement throws Exception as we are stating
         return a/b;
     }
 }
@@ -18,8 +19,8 @@ public class ShowcaseTHROW {
             output = throwshow.divide(10,0);
             System.out.println(output);
         }
-        catch (ArithmeticException e) {
-            System.out.println("Does not make sense, "+e.getMessage());
+        catch (Exception e) {
+            System.out.println("Does not make sense, "+e.getMessage()); // And the message we put in the throw statement is picked up in this catch block
         }
     }
 }
