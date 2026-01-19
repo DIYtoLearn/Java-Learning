@@ -7,7 +7,6 @@ class throwshow
             throw new ArithmeticException("Cannot divide by 0");
         return a/b;
     }
-
 }
 
 public class ShowcaseTHROW {
@@ -19,11 +18,8 @@ public class ShowcaseTHROW {
             output = throwshow.divide(10,0);
             System.out.println(output);
         }
-        catch (ArithmeticException e)
-        {
+        catch (ArithmeticException e) {
             System.out.println("Does not make sense, "+e.getMessage());
         }
-
     }
-
 }
