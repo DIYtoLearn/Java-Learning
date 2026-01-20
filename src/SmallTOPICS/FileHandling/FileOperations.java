@@ -20,9 +20,9 @@ public class FileOperations {
             System.out.println(e.getMessage());
         }
 
-        System.out.println(fl.getAbsolutePath()+"\n"
-                +fl.getName()+"\n"
-                +fl.canRead()+"\n"
+        System.out.println(fl.getAbsolutePath()+"\n" // Get the full path for the file created
+                +fl.getName()+"\n" // Get the name for the file
+                +fl.canRead()+"\n" // Is the file readable
                 +fl.lastModified()
         );
 
