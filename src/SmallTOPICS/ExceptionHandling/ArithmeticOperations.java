@@ -48,6 +48,6 @@ public class ArithmeticOperations {
     public static void main(String[] args) {
 
         int req = ALloperations.returnMinimum();
-        System.out.println(req);
+        System.out.println("The minimum after all operations "+req);
     }
 }
