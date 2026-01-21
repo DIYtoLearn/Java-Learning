@@ -3,7 +3,7 @@ package SmallTOPICS.FileHandling;
 import java.io.File;
 import java.io.IOException;
 
-public class FileOperations {
+public class CreateFile {
     public static void main(String[] args) {
 
         File fl = new File("/Users/admin/Desktop/Upayan_Docs/Java_Practise/src/SmallTOPICS/FileHandling/Custom.txt");
