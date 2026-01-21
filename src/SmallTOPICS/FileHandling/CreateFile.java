@@ -23,8 +23,10 @@ public class CreateFile {
         System.out.println(fl.getAbsolutePath()+"\n" // Get the full path for the file created
                 +fl.getName()+"\n" // Get the name for the file
                 +fl.canRead()+"\n" // Is the file readable
-                +fl.lastModified()
+                +fl.length() // size of a file in bytes
         );
+
+        //fl.mkdir() // Create directory
 
     }
 }
