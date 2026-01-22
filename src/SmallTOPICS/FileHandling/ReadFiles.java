@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ReadFilesANDWriteTo {
+public class ReadFiles {
     public static void main(String[] args) {
         try {
             // 1. Create the File Reader
