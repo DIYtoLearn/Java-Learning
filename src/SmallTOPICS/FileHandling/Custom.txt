@@ -1,8 +1,2 @@
-Checking where is the file it writes to ?Checking where is the file it writes to ?
-Checking where is the file it writes to ?
-toma ke 108 bar // My line !!
-Checking where is the file it writes to ?
-Checking where is the file it writes to ?
-Checking where is the file it writes to ?
 bubu ?
-bubu ?bubu ?
+Hello File ! ?
