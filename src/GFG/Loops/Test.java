@@ -16,7 +16,7 @@ public class Test {
 
         for(;;)
         {
-            return;
+            return; // Without this return the for loop has no check condition so the code will run infinitely
         }
 
     }

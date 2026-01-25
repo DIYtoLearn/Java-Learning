@@ -21,11 +21,19 @@ class newTest{
 //    }
 
 
-    protected float Sum(float a, float b)
+    /*
+    * In the below method the arguments passed as the parameters for the method are of type float
+    * whereas the accepting data type is double
+    * In this method overloaded case since double can hold a float value hence the arguments are upcasted to double
+    *
+    * */
+
+    protected int Sum(double a, double b)
     {
         System.out.println("The float is called ");
-        float sum = (a+b);
+        int sum = (int)(a+b);
         return sum;
+        //System.out.println(sum);
     }
 
 }
@@ -33,8 +41,11 @@ class newTest{
 public class MethodOverloading {
     public static void main(String[] args) {
         newTest nt = new newTest();
-        double req = nt.Sum(1.21,1.52);
-        System.out.println("The Sum = "+req);
+        int req = nt.Sum(1.2111f,1.5221f);
+        System.out.println(req);
+
+        int req2 = nt.Sum(1,2);
+        System.out.println(req2);
 
 
     }
