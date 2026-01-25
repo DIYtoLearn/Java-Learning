@@ -29,7 +29,7 @@ class ALloperations{
 
     protected static int returnMinimum()
     {
-        AddAllvaluesAfterOperation(50,2);
+        AddAllvaluesAfterOperation(50,0);
         System.out.println(als);
         ListIterator<Integer> it = als.listIterator();
         int min = Integer.MAX_VALUE;
