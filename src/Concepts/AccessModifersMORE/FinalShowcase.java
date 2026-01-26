@@ -35,7 +35,7 @@ public class FinalShowcase {
         System.out.println(Hello.MAX_VAL); // No instance required to access a global constant
 
         Hello obj = new Hello();
-        System.out.println(obj.NEW_VAL); // Non static instance variable requires object to access their value
+        System.out.println(obj.NEW_VAL); // Non-static instance variable requires object to access their value
 
         int req = obj.Print();
         System.out.println(req);
