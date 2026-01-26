@@ -1,4 +1,4 @@
-package Lists.ArrayLists;
+package CollectionsKNOWLEDGE.ArrayLists;
 
 import BinarySearch.InputClass;
 import java.util.Arrays;

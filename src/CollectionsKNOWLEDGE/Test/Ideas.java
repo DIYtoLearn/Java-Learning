@@ -1,4 +1,4 @@
-package Lists.Test;
+package CollectionsKNOWLEDGE.Test;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Lists.ArrayLists;
+package CollectionsKNOWLEDGE.ArrayLists;
 import java.util.*;
 
     public class Iterator {

@@ -46,7 +46,5 @@ public class MethodOverloading {
 
         int req2 = nt.Sum(1,2);
         System.out.println(req2);
-
-
     }
 }

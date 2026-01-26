@@ -1,6 +1,5 @@
-package Lists.ArrayLists;
+package CollectionsKNOWLEDGE.ArrayLists;
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Declare {
     public static void main(String[] args) {

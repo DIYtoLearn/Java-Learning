@@ -37,7 +37,8 @@ class KamTeam extends Employees{
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        Employees[] emp = {new Engineer(), new KamTeam()}; // An array of class Employess
+        Employees[] emp = {new Engineer(), new KamTeam()}; // An array of class Employees where each element is a new object of the
+        // child classes / implementation classes that implment the interface Employees
 
         System.out.println("---2026 Promotion---");
         for(Employees e : emp)
