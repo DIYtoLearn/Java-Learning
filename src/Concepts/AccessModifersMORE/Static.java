@@ -1,5 +1,7 @@
 package Concepts.AccessModifersMORE;
 
+import Concepts.Classes_Objects.*;
+
 class user{
     int playerID;
     static int id = 0; // No matter How many objects of the class user is created the value for ID will be same for all of them
@@ -36,5 +38,10 @@ public class Static {
         u1.print();
 
         System.out.println("Accessed value of id in class user directly without object creation since the field is static = "+user.id);
+
+        Box bb = new Box();
+        bb.getClass();
+
+
     }
 }
