@@ -17,7 +17,7 @@ class testPrivate{
 }
 
 class Overdriverride extends testPrivate{
-    //@Override // ERROR: method does not override or implement a method from a supertype is the compiler telling you:
+    //@Override // ERROR message: method does not override or implement a method from a supertype is the compiler telling you:
     // "You asked me to replace a method from the parent, but as far as I can see, that method doesn't exist."
 
     // Without @Override: If you delete that line, the code will compile.
