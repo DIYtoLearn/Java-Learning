@@ -6,7 +6,7 @@ import java.io.IOException;
 public class CreateFile {
     public static void main(String[] args) {
 
-        File fl = new File("/Users/admin/Desktop/Upayan_Docs/Java_Practise/src/SmallTOPICS/FileHandling/Custom.txt");
+        File fl = new File("/Users/admin/Desktop/Java-Learning/src/SmallTOPICS/FileHandling/Custom2.txt");
 
         try{
             if(fl.createNewFile())
