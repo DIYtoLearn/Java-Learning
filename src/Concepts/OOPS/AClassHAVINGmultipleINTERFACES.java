@@ -77,7 +77,6 @@ class Calculation extends Multiply implements Add, Sub {
 // ---------------------------------------------------------
 public class AClassHAVINGmultipleINTERFACES {
 
-    // CRITICAL FIX: Main method must have 'String[] args' to run in standard Java.
     public static void main(String[] args) {
 
         // We pass 3,3 to the constructor, which sends it up to the 'Multiply' parent class
