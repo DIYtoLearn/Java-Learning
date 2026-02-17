@@ -1,0 +1,3 @@
+In Java the java.util.Collection and java.util.maps are two main root main interfaces for java collection classes
+
+Before (JDK 1.2) java had vectors, hashtables and Arrays which has varied implementation and harder to master and apply for developers
