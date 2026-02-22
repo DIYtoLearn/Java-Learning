@@ -1,3 +1,47 @@
 In Java the java.util.Collection and java.util.maps are two main root main interfaces for java collection classes
 
-Before (JDK 1.2) java had vectors, hashtables and Arrays which has varied implementation and harder to master and apply for developers
+Before (JDK 1.2) java had vectors, hash tables and Arrays which has varied implementation and harder to master and apply for developers
+
+
+The Iterable Interface has the iterator() method
+  [
+  [
+This is extended by the collection's interface which defined common methods like add(), remove(), clear()
+  [
+  [
+The collection's interface is extended by the list interface which is useful in ordering elements and also allows duplicate elements
+
+    Classes that implement the list's Interface are
+    -> ArrayList
+    -> LinkedList
+    -> Vector
+
+    -> Stack <-> class implements the LIFO (last-in-first-out) data structure.
+    It supports core operations like push() and pop(), along with peek(), empty(), and search().
+    Stack is a subclass of Vector and inherits its properties.
+
+    Note: Stack is a subclass of Vector and a legacy class.
+    It is thread-safe which might be overhead in an environment where thread safety is not needed.
+    An alternate to Stack is to use ArrayDequeue which is not thread-safe and has faster array implementation.
+
+
+
+Queue Interface // The Queue interface follows the FIFO (First-In, First-Out) principle, where elements are processed in the order they are added—similar to a real-world queue
+    Classes that implement this
+    -> Priority Queue // The most frequently used implementation of the queue interface is the PriorityQueue.
+    -> Deque Interface Extends Queue and Array Dequeue implements the Deque Interface
+
+    Deque - allows insertion and removal of elements from both ends
+    // The class which implements the deque interface is ArrayDeque
+
+
+SETS Interface represents an unordered collection that stores only unique elements (no duplicates)
+    Classes that implements this are
+    -> HashSet -> class implements a hash table and stores elements based on their hash codes.
+    It does not guarantee insertion order and allows one null element.
+
+
+
+
+    -> LinkedHashSet
+    -> TreeSet

@@ -6,11 +6,11 @@ import java.util.*;
 
 
 public class BeforeCOLLECTIONS {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        int arr[] = {1,2,3,4};
-        Vector<Integer> v = new Vector();
-        Hashtable<Integer, String> ht = new Hashtable();
+        int[] arr = {1,2,3,4};
+        Vector<Integer> v = new Vector<>();
+        Hashtable<Integer, String> ht = new Hashtable<>();
 
         v.addElement(1);
         v.addElement(9);
