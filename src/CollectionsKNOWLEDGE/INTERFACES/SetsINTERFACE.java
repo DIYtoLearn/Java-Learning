@@ -1,4 +1,4 @@
-package CollectionsKNOWLEDGE;
+package CollectionsKNOWLEDGE.INTERFACES;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -46,7 +46,6 @@ class TreeSetShwocase{
         {
             System.out.print(it.next()+" "); // prints in sorted order ASCENDING by default
         }
-
     }
 }
 

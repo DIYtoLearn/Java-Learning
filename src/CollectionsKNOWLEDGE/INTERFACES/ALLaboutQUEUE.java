@@ -1,4 +1,4 @@
-package CollectionsKNOWLEDGE;
+package CollectionsKNOWLEDGE.INTERFACES;
 
 import java.util.ArrayDeque;
 import java.util.PriorityQueue;
