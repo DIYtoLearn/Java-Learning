@@ -40,8 +40,18 @@ SETS Interface represents an unordered collection that stores only unique elemen
     -> HashSet -> class implements a hash table and stores elements based on their hash codes.
     It does not guarantee insertion order and allows one null element.
 
-
-
-
     -> LinkedHashSet
     -> TreeSet
+
+
+
+
+
+The Collections class is a utility class in java.util that provides various static methods to operate on collections.
+
+Some Methods:
+
+sort(List): Sorts a list.
+reverse(List): Reverses a list.
+shuffle(List): Randomly shuffles elements.
+binarySearch(List, key): Searches an element using binary search.

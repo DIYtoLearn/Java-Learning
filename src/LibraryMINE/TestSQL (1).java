@@ -5,7 +5,7 @@ import java.sql.*;
 public class TestSQL {
     public static void main(String[] args) {
         // Replace 'your_database_name' with the actual name of your schema
-        String url = "jdbc:mysql://localhost:3306/Practise";
+        String url = "jdbc:mysql://localhost:3306/practise";
         String user = "root";
         String password = "root";
 

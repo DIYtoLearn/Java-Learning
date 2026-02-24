@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ef0d67b-a352-4db5-b96f-0a7a7b1d768f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DIYtoLearn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DIYtoLearn/Java-Learning.git&quot;,
+    &quot;accountId&quot;: &quot;30db6d80-4e67-45c8-b0f5-13bdc46bed99&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Arrays/CountTHEelements.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2yTyrA1urk1YbCy5qYBMbxWQOF3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Abstraction1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Abstraction2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccessModifiers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Another.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_Ascending_sort_kth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_input.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_lessThanK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array_reoccur_element.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arraylist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BigINTEGER.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BigIntegerPRIME.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearchWithArralist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Box.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CSMACDSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterArraySORT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Check.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chk1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountTHEelements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Count_words.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountingLockers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Crah.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Crash.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Days.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Declare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynamicArrayPrinter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dynamic_2D_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EquationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileRead2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.File_read.executor&quot;: &quot;Run&quot;,
+    &quot;Application.First.executor&quot;: &quot;Run&quot;,
+    &quot;Application.First_test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hollow_square.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IO_lsgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ideas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InPlaceArrayUpdater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inf_loopFUN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Infinite_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InheritanceShowcase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Input.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interface1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leap_year.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Learn1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linear_Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPREFIX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxValK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Max_Min.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodOverloading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Move_Zeroes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.My_take_on_dynamic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Output.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overloading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeREVERSE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rec_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowcaseTHROW.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleApi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SomeMoreOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Static.executor&quot;: &quot;Run&quot;,
+    &quot;Application.String_test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsBASE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Swap_without_temp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Switch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSQL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing_array_output.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToeAI_GUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserProfile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Without_main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordSeparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.another.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bitwise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.casting.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.checking.executor&quot;: &quot;Run&quot;,
+    &quot;Application.json.executor&quot;: &quot;Run&quot;,
+    &quot;Application.methodInsidemethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.solveit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.square.executor&quot;: &quot;Run&quot;,
+    &quot;Application.success.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.thisDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.url_opener.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Upayan/Desktop/Intlj_jv/Java_Practise/src/SmallTOPICS/BigIntegers&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Upayan\Desktop\Intlj_jv\Java_Practise\src\SmallTOPICS\BigIntegers" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ef0d67b-a352-4db5-b96f-0a7a7b1d768f" name="Changes" comment="" />
+      <created>1749873054600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749873054600</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
