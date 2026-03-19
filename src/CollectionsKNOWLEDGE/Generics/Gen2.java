@@ -2,7 +2,7 @@ package CollectionsKNOWLEDGE.Generics;
 
 public class Gen2 {
 
-    protected static <T> int count(T arr[], T x){
+    protected static <T> int count(T[] arr, T x){
 
         int res = 0;
         for(T e : arr)
