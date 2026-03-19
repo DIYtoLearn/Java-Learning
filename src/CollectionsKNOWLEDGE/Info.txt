@@ -9,16 +9,19 @@ The Iterable Interface has the iterator() method
 This is extended by the collection's interface which defined common methods like add(), remove(), clear()
   [
   [
-The collection's interface is extended by the list interface which is useful in ordering elements and also allows duplicate elements
+The collection's interface is extended by the list/Queue/Set interface
 
-    Classes that implement the list's Interface are
+Classes that implement the list's (useful in ordering elements and also allows duplicate elements) Interface are
     -> ArrayList
     -> LinkedList
     -> Vector
 
-    -> Stack <-> class implements the LIFO (last-in-first-out) data structure.
+-> Stack <-> class implements the LIFO (last-in-first-out) data structure.
     It supports core operations like push() and pop(), along with peek(), empty(), and search().
     Stack is a subclass of Vector and inherits its properties.
+
+    Example of Stack - Clothes stacked in a clothing store (Given each of them are of the same size and design)
+     the last one added is the first one to be sold !
 
     Note: Stack is a subclass of Vector and a legacy class.
     It is thread-safe which might be overhead in an environment where thread safety is not needed.
@@ -26,12 +29,15 @@ The collection's interface is extended by the list interface which is useful in 
 
 
 
-Queue Interface // The Queue interface follows the FIFO (First-In, First-Out) principle, where elements are processed in the order they are added—similar to a real-world queue
+Queue Interface // The Queue interface follows the FIFO (First-In, First-Out) principle, where elements are processed in the order they are added
+        similar to a real-world queue
+        Example - Any fast food chain where the first customer is served first
+
     Classes that implement this
     -> Priority Queue // The most frequently used implementation of the queue interface is the PriorityQueue.
-    -> Deque Interface Extends Queue and Array Dequeue implements the Deque Interface
 
-    Deque - allows insertion and removal of elements from both ends
+    Deque --> Deque Interface Extends Queue and implements LinkedList
+    allows insertion and removal of elements from both ends
     // The class which implements the deque interface is ArrayDeque
 
 
@@ -40,14 +46,17 @@ SETS Interface represents an unordered collection that stores only unique elemen
     -> HashSet -> class implements a hash table and stores elements based on their hash codes.
     It does not guarantee insertion order and allows one null element.
 
-    -> LinkedHashSet
-    -> TreeSet
+    -> LinkedHashSet - Stores Hash table items in insertion order
+    -> TreeSet - implements self balancing binary tree (Red Black Tree) (SORTED elements)
 
 
+MAP VS SET
+Set is a collection of keys VS Map is a collection of key,value pairs
+EX: emoplyee_id's in the engeering_dept   VS    Employee id,employee name
 
 
-
-The Collections class is a utility class in java.util that provides various static methods to operate on collections.
+Collections(CLASS) IS NOT THE SAME AS Collection(INTERFACE, root of all the interfaces and classes in the collection heirarchy)
+The Collections class is a utility class in java.util that provides various static methods to operate on collection.
 
 Some Methods:
 
@@ -55,3 +64,5 @@ sort(List): Sorts a list.
 reverse(List): Reverses a list.
 shuffle(List): Randomly shuffles elements.
 binarySearch(List, key): Searches an element using binary search.
+max()
+min()
