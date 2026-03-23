@@ -1,4 +1,4 @@
-package CollectionsKNOWLEDGE.Test;
+package CollectionsKNOWLEDGE.CollectionNUANCES;
 
 import java.util.ArrayList;
 

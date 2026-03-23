@@ -1,4 +1,4 @@
-package CollectionsKNOWLEDGE;
+package CollectionsKNOWLEDGE.CollectionNUANCES;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
