@@ -29,11 +29,9 @@ public class Bulk_Operations_IN_collections {
 
         boolean Remove_elements = add1.removeAll(add2);
         System.out.println("Is Remove operation successful ? "+Remove_elements+" "+add1+add2);
-        
 
-        boolean Retain_elements = add1.retainAll(add2); // Did not do what was intended of it
+        boolean Retain_elements = add1.retainAll(add2); // Remove all elements from add1 Except for add2 elements
         System.out.println("Is Retain operation successful ? "+ Retain_elements +" "+add1+add2);
-
 
         ArrayList<String> Alist = new ArrayList<>();
         Alist.add("hello"); Alist.add("what?"); Alist.add("Do not");
@@ -41,11 +39,6 @@ public class Bulk_Operations_IN_collections {
 
         Alist.removeIf((n) -> (Objects.equals(n, "hello")));
         System.out.println("After conditioned removal "+Alist);
-
-
-
-
-
 
 
     }
