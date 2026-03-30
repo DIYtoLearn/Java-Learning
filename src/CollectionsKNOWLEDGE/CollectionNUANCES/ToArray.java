@@ -10,6 +10,8 @@ public class ToArray {
         List<Integer> ls = new ArrayList<>();
         ls.add(10); ls.add(100); ls.add(1000); ls.add(10000); ls.add(100000);
 
+        // Converting from List to Array
+
         System.out.println("Object[] toArray()");
         Object[] arr2 = ls.toArray();
         for(Object element : arr2)
@@ -17,13 +19,17 @@ public class ToArray {
             System.out.print(element+" ");
         }
 
-        System.out.println("\nT[] toArray(T[])");
+        System.out.println("\ntoArray(T[])");
         Integer[] arr = new Integer[ls.size()];
         arr = ls.toArray(arr);
         for(Integer element : arr)
         {
             System.out.print(element+" ");
         }
+
+
+
+        // Converting from Array to List
 
         System.out.println("\n");
         System.out.println("Array to LIST");
@@ -36,3 +42,6 @@ public class ToArray {
         System.out.println(list); // Output: [Apple, Banana, Cherry]
     }
 }
+
+// The toArray() method of ArrayList is used to convert the list into an array while preserving the order of elements.
+// It is commonly used when array-based processing is required or when interacting with APIs that work with arrays instead of collections.
