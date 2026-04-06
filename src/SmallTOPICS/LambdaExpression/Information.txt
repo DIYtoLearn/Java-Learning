@@ -1,0 +1,4 @@
+Lambda expressions in Java provide a clear and concise way to represent a method interface.
+These expressions are used primarily to define the behavior of a method in functional interfaces.
+single-line, multiline, and return-type lambda expressions.
+
