@@ -1,4 +1,4 @@
-package CollectionsKNOWLEDGE.Generics;
+package SmallTOPICS.Generics;
 
 class WithoutGenric{
     Object a;
