@@ -4,4 +4,14 @@ single-line, multiline, and return-type lambda expressions.
 
 
 
+Where we can use method reference
+if we are taking some parameter and making a function call, or no parameter and just making a function call
+Then we can make the code more precise with the user method reference
+
+Method references work only with functional interfaces, which contain exactly one abstract method.
+
+Method signature must match abstract method
+Common functional interfaces include Consumer, Supplier, Function, Predicate
+Used heavily with Streams and Collections
+
 
