@@ -11,6 +11,8 @@ Then we can make the code more precise with the user method reference
 Method references work only with functional interfaces, which contain exactly one abstract method.
 
 Method signature must match abstract method
+A method signature in Java = method name + parameter types (number, type, order)
+
 Common functional interfaces include Consumer, Supplier, Function, Predicate
 Used heavily with Streams and Collections
 

@@ -1,21 +1,33 @@
 package SmallTOPICS.LambdaExpression;
 
-import java.util.function.Supplier;
+import java.util.Arrays;
+import java.util.List;
 
 class GFG2{
-    private static String Hello = "new world";
+    private String Hello = "new world";
 
-    public static String getHello()
-    {return Hello;}
+    public void setHello(String msg) {
+        Hello = msg;
+        System.out.println(Hello);
+    }
+
+     static void Square(int n)
+     {
+         System.out.println(n*n);
+     }
 }
 
 public class MethodReference {
     public static void main(String[] args) {
-        //GFG2 obj = new GFG2();
-        //System.out.println(obj.getHello());
 
-        Supplier<String> sup = GFG2::getHello;
-        System.out.println(sup.get());
+        GFG2 obj = new GFG2();
+
+        List<String> alist = Arrays.asList("java", "mastery");
+        alist.forEach(obj::setHello); //objectReference::instanceMethod // Reference to an Instance Method of a Particular Object
+
+
+        List<Integer> alist2 = Arrays.asList(3,4);
+        alist2.forEach(GFG2::Square); // ClassName::staticMethodName // Reference to a Static Method
 
     }
 }
