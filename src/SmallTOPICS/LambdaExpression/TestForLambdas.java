@@ -1,5 +1,6 @@
 package SmallTOPICS.LambdaExpression;
 import java.util.Arrays;
+import java.util.Comparator;
 //public class TestForLambdas
 
 class Main {
@@ -24,6 +25,7 @@ class Main {
         arr[2] = new Pair(3, 5);
 
         Arrays.sort(arr, (a, b) -> a.x - b.x);
+        //Arrays.sort(arr, Comparator.comparingInt(a -> a.x));
 
         int count = 0;
         for (Pair ob : arr) {
