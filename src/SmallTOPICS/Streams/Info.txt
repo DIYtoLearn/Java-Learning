@@ -1,0 +1,31 @@
+
+Pipeline of functions applied to a Source
+Source can be collection / array
+
+
+Two types of operation occur for streams
+Intermediate
+Terminal
+
+When the terminal operation begins execution then the intermediate functions are trigerred and a
+pipeline is created where all the elements go through the functions in one go
+
+
+Stream work extremely well with lambda expressions and method reference
+Streams help make longer code more readable and concise, for the next person to read and understand
+
+Commonly used Stream Interfaces
+filter(): selects elements matching a condition
+map(): transforms elements
+distinct(): removes duplicate elements
+sorted(): sorts elements
+skip(): skips a specified number of elements
+findFirst(): retrieves the first element
+count(): counts elements
+min() / max(): finds minimum or maximum values
+reduce(): reduces elements to a single value
+collect(): converts the stream into a collection
+
+Sequential VS Parallel Streams
+
+
