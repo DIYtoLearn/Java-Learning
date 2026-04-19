@@ -27,5 +27,6 @@ reduce(): reduces elements to a single value
 collect(): converts the stream into a collection
 
 Sequential VS Parallel Streams
+// https://www.geeksforgeeks.org/java/parallel-vs-sequential-stream-in-java/
 
 
