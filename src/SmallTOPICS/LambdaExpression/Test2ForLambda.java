@@ -3,7 +3,7 @@ package SmallTOPICS.LambdaExpression;
 
 @FunctionalInterface
 interface Hello {
-    void multiplyBy5(int n, int a);
+    void Operation(int n, int a);
 }
 
 class Solution {
@@ -20,6 +20,6 @@ class Solution {
 public class Test2ForLambda {
     static void main() {
         Hello h =  Solution.helperFunction();
-        h.multiplyBy5(10, 10);
+        h.Operation(10, 10);
     }
 }
