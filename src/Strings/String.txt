@@ -1,4 +1,4 @@
-Java uses 16 bits to store a sting
+Java uses 16 bits to store a string
 UTF-16 encoding is used to store character in Java
 
  String are immutable in java

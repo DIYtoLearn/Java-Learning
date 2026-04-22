@@ -49,7 +49,7 @@ class NormalSolution{
 
     protected static void NnumsContaining5(){
         ArrayList<Integer> Alist = new ArrayList<>();
-        while(x<101){
+        while(x<1000){
             Alist.add(x);
             x++;
         }
@@ -60,7 +60,7 @@ class NormalSolution{
         int num,copyOfnum,count,Ld;
         while(Lit.hasNext())
         {
-            if(AList2.size() >= 10)
+            if(AList2.size() >= 100)
                 break;
             else {
                  num = Lit.next();
@@ -80,6 +80,7 @@ class NormalSolution{
                 }
             }
         }
+        System.out.println(AList2.size());
         System.out.println(AList2);
     }
 }
