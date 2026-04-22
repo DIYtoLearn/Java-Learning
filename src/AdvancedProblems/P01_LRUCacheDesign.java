@@ -1,4 +1,4 @@
-package problems;
+package AdvancedProblems;
 
 import java.util.Map;
 

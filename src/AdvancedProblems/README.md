@@ -1,6 +1,6 @@
 # Advanced Java Problem Tracker
 
-Use this tracker to solve the problems in a progression that builds depth step by step.
+Use this tracker to solve the AdvancedProblems in a progression that builds depth step by step.
 
 Legend:
 - Difficulty: `M` = Medium, `H` = Hard, `VH` = Very Hard

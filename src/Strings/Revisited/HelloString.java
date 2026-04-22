@@ -4,7 +4,7 @@ class RevisitingAllProblems{
 
     public static void LengthOfString(String s)
     {
-        int NumberOfcharacters = 0;
+        int NumberOfCharacters = 0;
         char[] arr = s.toCharArray();
         int len = arr.length;
         System.out.println(len);
@@ -13,15 +13,15 @@ class RevisitingAllProblems{
         try {
             while(true)
             {
-                char ch = s.charAt(NumberOfcharacters);
-                NumberOfcharacters++;
+                char ch = s.charAt(NumberOfCharacters);
+                NumberOfCharacters++;
             }
         }
         catch (Exception e)
         {
             e.printStackTrace();
             System.out.println("chodna");
-            NormalFlow(NumberOfcharacters);
+            NormalFlow(NumberOfCharacters);
         }
     }
 

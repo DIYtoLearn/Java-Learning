@@ -1,4 +1,4 @@
-package problems;
+package AdvancedProblems;
 
 import java.net.URI;
 import java.util.Set;
