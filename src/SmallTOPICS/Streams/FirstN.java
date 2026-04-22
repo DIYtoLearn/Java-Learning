@@ -57,9 +57,9 @@ class NormalSolution{
 
         ArrayList<Integer> AList2 = new ArrayList<>(10);
         ListIterator<Integer> Lit = Alist.listIterator();
+        int num,copyOfnum,count,Ld;
         while(Lit.hasNext())
         {
-            int num,copyOfnum,count,Ld;
             if(AList2.size() >= 10)
                 break;
             else {
