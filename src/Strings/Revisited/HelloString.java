@@ -1,6 +1,6 @@
 package Strings.Revisited;
 
-class RevistingAllProblems{
+class RevisitingAllProblems{
 
     public static void LengthOfString(String s)
     {
@@ -33,6 +33,6 @@ class RevistingAllProblems{
 
 public class HelloString {
     static void main() {
-        RevistingAllProblems.LengthOfString("DeatHerTZ"); // You cannot safely check bounds without length — only workaround is exception handling
+        RevisitingAllProblems.LengthOfString("DeatHerTZ"); // You cannot safely check bounds without length — only workaround is exception handling
     }
 }

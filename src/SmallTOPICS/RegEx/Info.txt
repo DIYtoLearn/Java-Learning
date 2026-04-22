@@ -1,0 +1,11 @@
+Regular Expression Commonly known as RegEx
+It is widely used for Email Validation, Password Strength Check, parsing logs and text replacement
+
+Package required to work with Regular Expressions
+import java.util.regex
+
+The package has 3 classes
+Pattern - Used to define the regular expression
+Pattern Matcher - Used to enforce the pattern defined via Matching, replacing and searching
+PatternSyntaxException - Indicated a syntax Error in the defined pattern
+
