@@ -51,7 +51,18 @@ class RevisitingAllProblems{
         }
     }
 
-    protected static void ExtraCharacter(int[] arr){
+    protected static void ExtraCharacter(String s1, String s2){
+
+        int result = 0;
+        for(char c : s1.toCharArray()){
+            result ^= c;
+        }
+
+        for(char c : s2.toCharArray()){
+            result ^= c;
+        }
+
+        System.out.println("\n"+(char) result);
 
     }
 }
@@ -59,5 +70,6 @@ class RevisitingAllProblems{
 public class HelloString {
     static void main() {
         RevisitingAllProblems.LengthOfString("The quick brown fox jumps over the lazy dog"); // You cannot safely check bounds without length — only workaround is exception handling
+        RevisitingAllProblems.ExtraCharacter("aabbc", "aaxbbc");
     } // DeatHerTZ
 }
