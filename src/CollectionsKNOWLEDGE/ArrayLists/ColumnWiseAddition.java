@@ -45,7 +45,6 @@ class AddTheList
             }
             System.out.println();
         }
-
         return alist;
     }
 }
