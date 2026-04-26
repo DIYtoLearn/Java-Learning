@@ -35,7 +35,6 @@ class Search
         }
         System.out.println("The taget element is "+found+" and the index is "+index);
         }
-
     }
 
 public class BinarySearchWithArralist {
@@ -49,8 +48,6 @@ public class BinarySearchWithArralist {
         List<Integer> list = Arrays.stream(in)      // Create an IntStream
                 .boxed()                            // Box int to Integer
                 .collect(Collectors.toList());
-
-        //System.out.println(list);
 
         Search sc = new Search();
         sc.operation((ArrayList<Integer>) list);

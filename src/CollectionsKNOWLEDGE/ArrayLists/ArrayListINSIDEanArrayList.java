@@ -38,6 +38,7 @@ class alltheways
 
         arr3.add(new ArrayList<>(Arrays.asList(1, 2, 3))); // Row 0
         arr3.add(new ArrayList<>(Arrays.asList(4, 5)));    // Row 1
+        System.out.println(arr3);
     }
 
     protected void ListsofIMMUTABLE()
@@ -46,7 +47,7 @@ class alltheways
         // Using List.of()
         // The resulting lists are immutable. These are great for creating constant lookup tables
         List<List<Integer>> arr4 = List.of(
-                List.of(1, 2, 3),
+                List.of(1, 2, 3, 112, 123,44),
                 List.of(4, 5, 6),
                 List.of(7, 8)
         );
@@ -69,24 +70,14 @@ class alltheways
 }
 
 
-class AlltheACCESSways
-{
-    alltheways atw = new alltheways();
-
-    protected void ACCESS1()
-    {
-
-
-
-    }
-}
-
 
 public class ArrayListINSIDEanArrayList {
     public static void main(String[] args) {
 
         alltheways atw = new alltheways();
         atw.Manual();
+        atw.FixedInnerLists();
+        atw.ListsofIMMUTABLE();
 
 
 
