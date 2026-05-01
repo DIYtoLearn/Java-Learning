@@ -1,0 +1,16 @@
+The Last In First Out Data structure AKA Stack
+Multi threaded safety and inherits from legacy class vectors
+For single threaded environment go with ArrayDeque
+
+
+Iterable <- Extends (Collection) <- Extends (list) <-- Implements (Vectors) <- Extends (Stack)
+Iterable <- Extends (Collection) <- Extends (Queue) <- Extends (Deque) <-- Implements (Abstract Collection) <- Extends (ArrayDeque)
+
+Methods available for use for both these classes
+
+push() -- Add elements to the top of the stack / deque
+pop() -- remove the display the topmost element
+peek() -- view the topmost element
+search() -- look for an element in the stack / deque
+isEmpty() -- check if the stack / deque is empty
+size() -- returns the size for the stack / deque
