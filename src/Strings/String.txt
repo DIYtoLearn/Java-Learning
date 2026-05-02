@@ -9,7 +9,7 @@ UTF-16 encoding is used to store character in Java
  String buffer is thread safe, this class created mutable strings which can be modified, appended or inserted to
 StringBuffer is thread-safe due to synchronization, making it suitable for multi-threaded environments, while StringBuilder is faster but not thread-safe
 
-The string pool also known as String constant pool within the java heap memory is a special storage area. That optimizes memory usage and improves performace by storing only one copy of each unique sting literal
+The string pool also known as String constant pool within the java heap memory is a special storage area. That optimizes memory usage and improves performance by storing only one copy of each unique sting literal
 String s = new String("hello"); creates a new object in the heap every time, regardless of whether "hello" already exists. (use this more)
 
 String s = "hello"; checks the pool first. If "hello" is already there, it returns a reference to the existing object. Otherwise, it creates "hello" in the pool and returns a reference to it.
