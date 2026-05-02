@@ -27,11 +27,6 @@ Rabin-Karp Algorithm
 //        }
 
         String sub, sub2;
-//        sub = s1.substring(0,s1.length()-1);
-//        sub2 = s1.substring(s1.length()-1);
-//        System.out.println(sub+" "+sub2);
-//        System.out.println((sub2+sub).length());
-//        System.out.println(s2.equals(sub2+sub));
 
         for(int i=0; i<s1.length(); i++) {
             sub = s1.substring(0, s1.length() - 1);

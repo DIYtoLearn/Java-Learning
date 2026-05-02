@@ -26,8 +26,12 @@ public class StackTest {
         stack.push(16);
         System.out.println("stack size = "+stack.size());
         System.out.println(stack);
-        int found = stack.search(12);
+        int found = stack.search(121);
         System.out.println(found+" "+stack.search(12));
 
+        // Popping all the elements in the stack and checking till stack is empty
+        while(!stack.isEmpty()){
+            System.out.println(stack.pop()+" ");
+        }
     }
 }
