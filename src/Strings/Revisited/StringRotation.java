@@ -1,12 +1,15 @@
 package Strings.Revisited;
 
+import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Deque;
 
 // https://www.geeksforgeeks.org/batch/jbdl-blr-8/track/Java-Collections-String/problem/check-if-strings-are-rotations-of-each-other-or-not-1587115620
 public class StringRotation {
     public static void main(String[] args) {
         String s1 = "abcd";
         String s2 = "dabc";
+        char[] c1 = s1.toCharArray();
         System.out.println((s1+s1).contains(s2)); // O(n) time complexity
         /*
 contains() = substring search
@@ -17,6 +20,11 @@ Two-Way String Matching Algorithm
 Boyer-Moore Algorithm
 Rabin-Karp Algorithm
         */
+        Deque<Character> adq = new ArrayDeque<>();
+        for(char x : c1){
+            adq.push(x);
+        }
+        System.out.println("ArrayDeque"+adq);
 
 
         //char[] manipulating = s1.toCharArray();

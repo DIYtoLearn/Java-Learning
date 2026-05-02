@@ -29,6 +29,10 @@ public class StackTest {
         int found = stack.search(121);
         System.out.println(found+" "+stack.search(12));
 
+        // remove middle element from the stack
+        int mid = (stack.size()-1)/2;
+        stack.remove(mid);
+
         // Popping all the elements in the stack and checking till stack is empty
         while(!stack.isEmpty()){
             System.out.println(stack.pop()+" ");
