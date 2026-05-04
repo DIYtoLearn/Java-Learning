@@ -62,10 +62,8 @@ class OperationPerformer {
         return "done";
     }
 
-    /*
+    /**
      * Returns the minimum element in O(1) time.
-     * WHY O(1)?
-     * ----------
      * Instead of scanning the entire stack (which would be O(n)),
      * we maintain another stack (aux_stack) that always keeps track
      * of minimum values.
