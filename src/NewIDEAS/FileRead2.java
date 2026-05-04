@@ -17,7 +17,7 @@ class Reader
 
         protected void readfromFile() throws Exception
         {
-            Scanner sc = new Scanner(new File("/Users/admin/Desktop/Sum.txt"));
+            Scanner sc = new Scanner(new File("/Users/admin/Desktop/Java-Learning/src/NewIDEAS/Sum.txt"));
             // For Mac "/Users/admin/Desktop/read"
             // For windows "C:\\Users\\Upayan\\Desktop\\read.txt"
             int req = 0;
