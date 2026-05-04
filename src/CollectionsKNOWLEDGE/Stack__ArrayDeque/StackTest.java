@@ -1,5 +1,6 @@
 package CollectionsKNOWLEDGE.Stack__ArrayDeque;
 
+import java.util.ArrayDeque;
 import java.util.ListIterator;
 import java.util.Stack;
 
@@ -37,5 +38,41 @@ public class StackTest {
         while(!stack.isEmpty()){
             System.out.println(stack.pop()+" ");
         }
+
+        String result_required = Solution.removeConsecutiveDuplicates("aaaaaabaabccccccc");
+        System.out.println(result_required);
+    }
+}
+
+
+class Solution {
+    public static String removeConsecutiveDuplicates(String s) {
+        // Your code here
+
+        // Edge case
+        if (s == null || s.isEmpty()) {
+            return "";
+        }
+
+        Stack<Character> stack = new Stack<>();
+
+        // Traverse string
+        for (char ch : s.toCharArray()) {
+
+            // If stack is empty OR current char != top of stack → push
+            if (stack.isEmpty() || stack.peek() != ch) {
+                stack.push(ch);
+            }
+            // Else skip (this removes consecutive duplicates)
+        }
+
+        // Build result from stack
+        StringBuilder result = new StringBuilder();
+
+        for (char ch : stack) {
+            result.append(ch);
+        }
+
+        return result.toString();
     }
 }

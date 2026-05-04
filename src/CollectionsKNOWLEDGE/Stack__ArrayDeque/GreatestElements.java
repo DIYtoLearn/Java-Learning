@@ -115,7 +115,7 @@ public class GreatestElements {
     {
         System.out.println("Hello world");
         AllSolutions alsoln = new AllSolutions();
-        int[] arr = {5, 15, 10, 8, 6, 12, 7};
+        int[] arr = {10, 15, 20, 25};
         System.out.println(Arrays.toString(arr));
         Object[] result = alsoln.ClosestGreaterElement(arr);
         //System.out.println(Arrays.toString(result));
