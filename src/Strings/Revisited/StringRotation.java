@@ -24,7 +24,7 @@ Rabin-Karp Algorithm
         for(char x : c1){
             adq.push(x);
         }
-        System.out.println("ArrayDeque"+adq);
+        System.out.println("ArrayDeque "+adq);
 
 
         //char[] manipulating = s1.toCharArray();

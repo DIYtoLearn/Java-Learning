@@ -31,12 +31,12 @@ public class MatchingBrackets{
             }
         }
 
-        return true;
+        return (stack.isEmpty());
     }
 
     public static void main (String[] args) {
 
-        String str = "{(())}";
+        String str = "[()()]{}";
 
         System.out.println(isBalanced(str));
     }
