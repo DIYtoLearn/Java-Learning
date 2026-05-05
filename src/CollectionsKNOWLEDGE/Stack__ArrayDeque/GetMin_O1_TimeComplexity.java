@@ -46,7 +46,7 @@ class OperationPerformer {
      */
     public String pop(){
         if(main_stack.isEmpty())
-            return "";
+            return "Nothing in main stack to POP !";
 
         // == → “Are these the same object in memory?”
         //.equals() → “Do these have the same value?”
@@ -59,7 +59,7 @@ class OperationPerformer {
         // https://medium.com/tuanhdotnet/integer-caching-in-java-how-it-works-and-why-it-matters-cd6f09c53728
 
         main_stack.pop();
-        return "done";
+        return "200 OK";
     }
 
     /**
@@ -110,6 +110,7 @@ public class GetMin_O1_TimeComplexity {
 
                 case "pop":
                     String res = Op.pop();
+                    System.out.println(res);
                     break;
 
                 case "min":
