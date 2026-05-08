@@ -39,7 +39,7 @@ public class ComparatorMethods {
         // Comparator for comparing according to power level
 
 
-        Collections.sort(APlvl,Comparator.comparing(APlvl));
+        //Collections.sort(APlvl,Comparator.comparing(APlvl));
 
 
 
