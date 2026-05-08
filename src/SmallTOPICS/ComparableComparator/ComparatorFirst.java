@@ -1,5 +1,6 @@
 package SmallTOPICS.ComparableComparator;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 
@@ -29,7 +30,7 @@ public class ComparatorFirst {
 
         ArrayList<String> AString = new ArrayList<String>();
         AString.add("");  AString.add("length12");
-        AString.add("length1");  AString.add("length");
+        AString.add(null);  AString.add("length");
         AString.add("length1234");  AString.add("len");
 
         System.out.println(AString);
@@ -43,7 +44,7 @@ public class ComparatorFirst {
                 return 0;
         };
 
-        AString.sort(comp2); // For  AString.add(null); getting null pointer exception not possible to sort this !
+        AString.sort(Comparator.nullsFirst(comp2)); // For  AString.add(null); getting null pointer exception not possible to sort this !
         System.out.println("Sort based in String Length: "+AString);
 
     }
