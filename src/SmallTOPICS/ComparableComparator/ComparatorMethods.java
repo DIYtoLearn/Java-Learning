@@ -1,8 +1,5 @@
 package SmallTOPICS.ComparableComparator;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 class PowerLevel{
     String character;
@@ -35,16 +32,21 @@ public class ComparatorMethods {
         List<PowerLevel> APlvl = new ArrayList<>();
         APlvl.add(new PowerLevel("Gintoki",77));
         APlvl.add(new PowerLevel("Goku",98));
+        APlvl.add(new PowerLevel("Normal human",11));
+        APlvl.add(new PowerLevel("Gin",77));
+        APlvl.add(new PowerLevel("Thragg",84));
 
-        // Comparator for comparing according to power level
+        // Comparator for comparing according to power level if power level is same sort by character length
+        Collections.sort(APlvl, (O1, O2)->{
+                if(O1.power_rating != O2.power_rating)
+                    return O1.power_rating - O2.power_rating;
+
+                else
+                    return O1.character.length() - O2.character.length();
+        });
 
 
-        //Collections.sort(APlvl,Comparator.comparing(APlvl));
-
-
-
-
-        System.out.println("MAX Power Rating is 100");
+        System.out.println(" MAX Power Rating is 100\n ---Sorted by Power Rating---");
         for(PowerLevel printIt : APlvl)
         {
             System.out.println(printIt.toString());
