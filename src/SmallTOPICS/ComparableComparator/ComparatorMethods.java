@@ -45,7 +45,6 @@ public class ComparatorMethods {
                     return O1.character.length() - O2.character.length();
         });
 
-
         System.out.println(" MAX Power Rating is 100\n ---Sorted by Power Rating---");
         for(PowerLevel printIt : APlvl)
         {
