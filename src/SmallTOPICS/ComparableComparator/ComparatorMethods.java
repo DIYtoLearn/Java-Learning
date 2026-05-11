@@ -28,7 +28,7 @@ class PowerLevel{
 }
 
 public class ComparatorMethods {
-    static void main() {
+    static void main() throws InterruptedException {
         List<PowerLevel> APlvl = new ArrayList<>();
         APlvl.add(new PowerLevel("Gintoki",77));
         APlvl.add(new PowerLevel("Goku",98));
@@ -49,6 +49,7 @@ public class ComparatorMethods {
         System.out.println(" MAX Power Rating is 100\n ---Sorted by Power Rating---");
         for(PowerLevel printIt : APlvl)
         {
+            Thread. sleep(1000);
             System.out.println(printIt.toString());
         }
     }
