@@ -1,4 +1,4 @@
-package Array_Strings;
+package AllAboutArrays.Array_Strings;
 
 public class Linear_Search {
 

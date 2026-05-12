@@ -1,4 +1,4 @@
-package Arrays;
+package AllAboutArrays.Arrays;
 
 class Solution {
     int missingNum(int[] arr) {

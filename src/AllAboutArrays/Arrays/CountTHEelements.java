@@ -1,4 +1,4 @@
-package Arrays;
+package AllAboutArrays.Arrays;
 /*
 Input:
 n = 3

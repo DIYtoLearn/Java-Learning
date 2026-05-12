@@ -1,4 +1,4 @@
-package Arrays;
+package AllAboutArrays.Arrays;
 
 public class Largest_element_array {
 

@@ -1,4 +1,4 @@
-package Array_Strings;
+package AllAboutArrays.Array_Strings;
 import java.util.Scanner;
 
 public class Array_input {

@@ -1,4 +1,4 @@
-package Array_Strings;
+package AllAboutArrays.Array_Strings;
 import java.util.Arrays;
 public class Array_reoccur_element {
     public static void main(String[] args) {

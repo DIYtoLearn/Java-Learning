@@ -1,4 +1,4 @@
-package Array_Strings;
+package AllAboutArrays.Array_Strings;
 
 public class Testing_array_output {
     public static void main(String[] args) {

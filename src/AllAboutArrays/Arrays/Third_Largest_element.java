@@ -1,4 +1,4 @@
-package Arrays;
+package AllAboutArrays.Arrays;
 
 public class Third_Largest_element {
     public static void main(String[] args) {

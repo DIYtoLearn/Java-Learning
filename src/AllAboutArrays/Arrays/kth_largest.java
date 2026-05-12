@@ -1,4 +1,4 @@
-package Arrays;
+package AllAboutArrays.Arrays;
 import java.util.TreeSet;
 import java.util.Arrays;
 import java.util.Scanner;

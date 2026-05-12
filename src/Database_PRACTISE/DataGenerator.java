@@ -35,7 +35,7 @@ public class DataGenerator {
 //        insertOrderItems(conn, random);
 
         conn.close();
-        System.out.println("✅ Data generation complete");
+//        System.out.println("✅ Data cleanup and generation complete");
     }
 
     // ---------------- RESET ----------------
@@ -55,6 +55,7 @@ public class DataGenerator {
 
         stmt.execute("SET FOREIGN_KEY_CHECKS = 1");
         conn.commit();
+        System.out.println("✅ Data Cleanup complete");
     }
 
 //    // ---------------- USERS ----------------

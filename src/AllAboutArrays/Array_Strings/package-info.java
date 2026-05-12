@@ -1,4 +1,4 @@
-package Array_Strings;
+package AllAboutArrays.Array_Strings;;
 
 class Another{
     public static void main(String[] args) {

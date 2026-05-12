@@ -1,4 +1,4 @@
-package Arrays;
+package AllAboutArrays.Arrays;
 
 public class Second_Largest_2 {
     public static void main(String[] args) {
