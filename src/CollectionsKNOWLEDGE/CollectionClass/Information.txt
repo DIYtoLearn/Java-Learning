@@ -1,0 +1,28 @@
+The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main root interfaces of Java Collection classes.
+
+Collection methods (These methods are applied to elements implementing the Collection interface.):
+min(c): Returns the minimum element of the given collection, according to the natural ordering of its elements.
+min(c, Comparator): Returns the minimum element according to a specified comparator.
+max(c): Returns the maximum element of the given collection, according to the natural ordering of its elements.
+max(c, Comparator): Returns the maximum element according to a specified comparator.
+disjoint(c1, c2): Checks whether two specified collections are disjoint (i.e., have no elements in common). Returns true if they are disjoint.
+frequency(c, obj): Returns the number of occurrences of obj in the specified collection c.
+
+
+List Methods (These methods are applied to elements implementing the List interface.):
+binarySearch(l, key): Returns the position of a key in a sorted list l. If the key is not present, it returns -(insertion_point + 1).
+copy(dest, src): Copies all elements from the source list (src) to the destination list (dest). The destination list must be at least as long as the source list.
+fill(l, obj): Replaces all elements of the specified list l with the specified object obj.
+indexOfSubList(srcL, targetL): Returns the starting position of the first occurrence of the specified target list within the source list, or -1 if not found.
+lastIndexOfSubList(srcL, targetL): Returns the last position of the first occurrence of the specified target list within the source list, or -1 if not found.
+replaceAll(l, old, new): Replaces all occurrences of old value in the list with new value.
+reverse(l): Reverses all elements in the list.
+rotate(l, dist): Rotates elements in the list by a given distance in a clockwise manner.
+sort(l): Sorts the list in natural order or using a specified comparator.
+swap(l, i, j): Swaps elements at positions i and j in the list.
+
+
+
+https://www.notion.so/Collections-Some-more-35ff2887bb38805b8e7bccbf1df804df?source=copy_link
+
+fill(l, obj): can be used by only ArrayList, LinkedList, Vector, and Stack.
