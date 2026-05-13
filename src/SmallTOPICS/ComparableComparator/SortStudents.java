@@ -30,12 +30,12 @@ public class SortStudents {
                 new newStudent("Alice", 101)
         );
 
-        // 1. Using traditional compare() via a lambda
+        // Using traditional compare() via a lambda
         Comparator<newStudent> rollNoComparator = (s1, s2) -> s1.getRollNo().compareTo(s2.getRollNo());
         students.sort(rollNoComparator);
         System.out.println("Sorted by Roll No (compare): " + students);
 
-        // 2 & 3. Using comparing() and thenComparing()
+        // Using comparing() and thenComparing()
         // This sorts by name first. If names are equal, it sorts by roll number.
         Comparator<newStudent> nameThenRoll = Comparator
                 .comparing(newStudent::getName)
