@@ -116,9 +116,13 @@ public class GetMin_O1_TimeComplexity {
                 case "min":
                     int current_min_as_per_the_stack = Op.getMin();
 
+                    if(current_min_as_per_the_stack == -1)
+                        System.out.println("Your stack has no element to give minimums !!");
+
+                    else{
                     System.out.println("Current Main Stack " + Op.getMain_stack());
                     System.out.println("Current Aux Stack containing Mins " + Op.getAux_stack());
-                    System.out.println("Current min in the stack = " + current_min_as_per_the_stack);
+                    System.out.println("Current min in the stack = " + current_min_as_per_the_stack);}
                     break;
 
                 /*
