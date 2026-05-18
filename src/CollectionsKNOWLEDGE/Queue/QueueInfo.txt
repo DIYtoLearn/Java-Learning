@@ -1,0 +1,9 @@
+https://www.notion.so/Queue-from-collections-363f2887bb388072973dc949a92fd23a?source=copy_link
+
+
+Common Implementations of Queue Interface
+LinkedList: Implements List and Deque interfaces, allows null elements, and can be used as a FIFO queue when used through the Queue interface.
+ArrayDeque: A resizable array-based queue that is faster than LinkedList and does not allow nulls.
+PriorityQueue: A queue where elements are processed according to their priority instead of insertion order.
+ConcurrentLinkedQueue: A thread-safe, non-blocking queue suitable for concurrent environments.
+BlockingQueue: A thread-safe queue that supports blocking operations for producer-consumer scenarios.
