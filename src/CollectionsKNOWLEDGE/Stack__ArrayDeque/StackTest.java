@@ -1,6 +1,5 @@
 package CollectionsKNOWLEDGE.Stack__ArrayDeque;
 
-import java.util.ArrayDeque;
 import java.util.ListIterator;
 import java.util.Stack;
 
@@ -40,5 +39,3 @@ public class StackTest {
         }
     }
 }
-
-
