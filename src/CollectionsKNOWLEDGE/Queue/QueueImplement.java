@@ -13,6 +13,7 @@ class Priority{
             priorityQ.offer(11);
             priorityQ.add(100);
             priorityQ.offer(77);
+            priorityQ.poll(); // Removed the element with the highest priority
     }
 
     public Queue<Integer> getPriorityQ() {
@@ -30,6 +31,7 @@ class ArrayDeque {
         QueueDequeVizArray.offer('b');
         QueueDequeVizArray.add('c');
         QueueDequeVizArray.offer('d');
+        QueueDequeVizArray.poll(); // Followed the FIFO method of removal
     }
 
     public Queue<Character> getQueueDequeVizArray() {
@@ -47,6 +49,7 @@ class linkedList{
         llqueue.offer("baby");
         llqueue.add("World");
         llqueue.offer("grit");
+        llqueue.poll(); // Followed the FIFO method of removal
 
     }
 

@@ -1,17 +1,25 @@
 package CollectionsKNOWLEDGE.Queue;
-
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.Arrays;
 
 public class ReversingKElement {
     static void main() {
 
-        Queue<Integer> st1 = new PriorityQueue<>();
-        st1.add(1); st1.add(2); st1.add(3); st1.add(4); st1.add(5);
+        int[] arr = {1,2,3,4,5}; System.out.println(Arrays.toString(arr));
+        int k = 5;
+        int Front = 0;
+        int Rear = k-1;
 
+        while(Front < Rear) // Break Condition
+        {
+            // Swap
+            int temp = arr[Front];
+            arr[Front] = arr[Rear];
+            arr[Rear] = temp;
 
+            // Change Pointer positions
+            Front++; Rear--;
+        }
 
-
-
+        System.out.println(Arrays.toString(arr));
     }
 }
