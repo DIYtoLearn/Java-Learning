@@ -93,7 +93,7 @@ public class GetMin_O1_TimeComplexity {
         // Infinite loop to continuously take user input.
         while(true) {
 
-            System.out.print("Enter the operation to be performed: ");
+            System.out.print("Enter the operation to be performed -->Try push/pop/min/exit : ");
             String Operation_to_be_performed = sc.nextLine().toLowerCase();
 
             switch (Operation_to_be_performed) {

@@ -1,5 +1,8 @@
 https://www.notion.so/Queue-from-collections-363f2887bb388072973dc949a92fd23a?source=copy_link
 
+👉 poll() = retrieve + remove
+👉 Therefore queue size decreases by 1.
+
 
 Common Implementations of Queue Interface
 LinkedList: Implements List and Deque interfaces, allows null elements, and can be used as a FIFO queue when used through the Queue interface.
