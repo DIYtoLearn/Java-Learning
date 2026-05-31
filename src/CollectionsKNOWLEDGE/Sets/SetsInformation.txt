@@ -1,0 +1,18 @@
+https://app.notion.com/p/SET-s-in-JAVA-371f2887bb388069b0bfea83e6dd5275
+
+The main use case if Sets is that it does not allow duplicates.
+That is it !!!
+
+HashSet that us useful for searching, insertion and deletion, getSize, isEmpty in Time Complexity of O(1) Time
+If we make a HashSet of Type Custom class then the Hashing Algorithm has to be provided the user ? Rain check
+Items are stored according to the hash function
+
+TreeSet that is useful when we need to implement Floor(), Ceil(), Keep the insertion order
+If we make a treeSet with a type that is of a custom class created by the user then it should implement the comparable interface
+To sort the elements while insertion
+
+LinkedHashSet is a class in Java that implements the Set interface and maintains insertion order while storing unique elements.
+It combines the features of a HashSet and a LinkedList.
+Maintains insertion order of elements
+Stores unique elements only (no duplicates)
+Provides fast performance for basic operations

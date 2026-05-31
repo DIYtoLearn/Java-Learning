@@ -39,7 +39,7 @@ class checkingOperationResult{
 }
 
 public class DequeImplementation {
-    static void main() {
+    public static void main(String[] args) {
 
         checkingOperationResult COR = new checkingOperationResult();
 
