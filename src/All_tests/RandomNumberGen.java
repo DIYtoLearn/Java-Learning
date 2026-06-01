@@ -2,7 +2,7 @@ package All_tests.Test;
 
 import java.util.Random;
 
-public class Learn1 {
+public class RandomNumberGen {
 
     public static void main(String[] args) {
         Random rand = new Random();

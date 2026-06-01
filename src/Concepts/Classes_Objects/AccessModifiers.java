@@ -1,6 +1,6 @@
 package Concepts.Classes_Objects;
 
-import All_tests.Test.Inh;
+import All_tests.Inh;
 
 class checkPrivate
 {

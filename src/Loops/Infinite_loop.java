@@ -1,4 +1,4 @@
-package GFG.Loops;
+package Loops;
 
 
 public class Infinite_loop {

@@ -1,4 +1,4 @@
-package LibraryMINE;
+package All_tests;
 
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpHandler;

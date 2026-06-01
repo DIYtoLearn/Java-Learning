@@ -1,4 +1,4 @@
-package All_tests.Test;
+package All_tests;
 
 public class Inh {
 

@@ -1,4 +1,4 @@
-package GFG.Loops;
+package Loops;
 
 public class square {
     public static void main(String[] args) {

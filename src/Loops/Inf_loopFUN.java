@@ -1,4 +1,4 @@
-package GFG.Loops;
+package Loops;
 
 public class Inf_loopFUN {
     public static void main(String[] args) {

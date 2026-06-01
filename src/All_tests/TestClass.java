@@ -1,11 +1,12 @@
-package CollectionsKNOWLEDGE;
+package All_tests;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class TestClass {
 
-    static void main() {
+    public static void main(String[] args)
+
+    {
 
         ArrayList<Integer> add1 = new ArrayList<>(3);
         //add1.add(10); add1.add(20); add1.add(30);
