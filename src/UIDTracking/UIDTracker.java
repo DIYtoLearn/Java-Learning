@@ -1,7 +1,8 @@
 package UIDTracking;
 
 public class UIDTracker {
-    static void main() {
+    public static void main(String[] args) {
+
         String s = "Solution";
         String currentUID_for_class_name_starting_with_Solution = s+"UID_0";
         System.out.println(currentUID_for_class_name_starting_with_Solution);

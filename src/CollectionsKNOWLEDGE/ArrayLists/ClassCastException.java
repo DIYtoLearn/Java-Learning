@@ -15,7 +15,7 @@ class testadd{
 }
 
 public class ClassCastException {
-    static void main() {
+    public static void main(String[] args) {
 
         ArrayList alist = new ArrayList(); // Declaration of Arraylist without Generics <>
         alist.add(10);

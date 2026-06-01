@@ -1,7 +1,7 @@
 package SmallTOPICS.ExceptionHandling;
 
 // If the custom exception class extends from Exception then the exception created is a checked one
-// If the custom exception class extends RunTimeExcpetion then the exception created is an unchecked one
+// If the custom exception class extends RunTimeException then the exception created is an unchecked one
 class InvalidAgeException extends Exception{
     InvalidAgeException(String message)
     {
