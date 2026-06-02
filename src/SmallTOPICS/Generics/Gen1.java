@@ -20,7 +20,7 @@ public class Gen1 {
         wg.a = 12;
         wg.b = "Get Gud";
 
-        String str = (String) wg.a; // Throws Runtime exception ClassCaseException for this type cast
+        String str = (String) wg.a; // Throws Runtime exception ClassCastException for this type cast
         System.out.println(str);
 
 
