@@ -1,1 +1,8 @@
 agent --resume=9069cd53-1539-4379-a424-6c256b5e849c
+
+
+
+  1. Vol I: Generics + Collections → refactor CollectionsKNOWLEDGE + SmallTOPICS/Generics
+  2. Vol I: Lambda/Streams → upgrade SmallTOPICS/Streams
+  3. Vol II: Concurrency → solve AdvancedProblems/P02, P08, P12
+  4. Effective Java (if added): Items on equals/hashCode, immutability, exceptions → fix GeniusClass.java, implement P05
