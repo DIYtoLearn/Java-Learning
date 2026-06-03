@@ -24,7 +24,6 @@ public class ClassCastException {
             catch (java.lang.ClassCastException cp){
                 System.out.println("No Casting");
             }
-
         }
 
         // To avoid the above scenario Pattern Matching was introduced in Java 16 for InstanceOf
