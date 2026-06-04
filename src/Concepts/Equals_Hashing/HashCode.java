@@ -21,7 +21,7 @@ public class HashCode {
             System.out.println("HashCode of the Object Present and the current Size of the HashSet is "+element.hashCode()+"\n\n");
         }
 
-
+        // Here we added objects that are similar according to our .equals() override hence only one of those objects were added to the HashSet
         SGnZ.clear();
         SGnZ.add(GnZ); SGnZ.add(Gnz2); SGnZ.add(new GenZEmployeeClass(3,"TooMuch"));
 
