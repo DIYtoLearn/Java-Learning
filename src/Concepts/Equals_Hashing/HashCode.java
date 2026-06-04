@@ -11,7 +11,8 @@ public class HashCode {
 
 
         Set<GenZEmployeeClass> SGnZ = new HashSet<>();
-        SGnZ.add(new GenZEmployeeClass());
+        SGnZ.add(new GenZEmployeeClass()); // Adds a Null Name that is later changed to a Dummy value "CricStar to avoid Null pointer Exception
+        // when running Hascode "
         SGnZ.add(new GenZEmployeeClass());
 
         System.out.println("Override Done for the HashCode Method "+SGnZ.size());
