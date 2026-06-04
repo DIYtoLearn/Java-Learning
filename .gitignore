@@ -31,3 +31,5 @@ bin/
 # Ignore Google Drive temporary folders
 .tmp.driveupload/
 .tmp.drivedownload/
+
+mailmap.txt
