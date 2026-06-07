@@ -84,7 +84,7 @@ class OperationPerformer {
 
 public class GetMin_O1_TimeComplexity {
 
-    static void main() {
+    public static void main(String[] args) {
         System.out.print("Hello world\n");
 
         Scanner sc = new Scanner(System.in);

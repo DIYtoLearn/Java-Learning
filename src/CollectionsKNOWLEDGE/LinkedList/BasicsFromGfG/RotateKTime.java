@@ -1,4 +1,4 @@
-package CollectionsKNOWLEDGE.LinkedList;
+package CollectionsKNOWLEDGE.LinkedList.BasicsFromGfG;
 import java.util.LinkedList;
 
 public class RotateKTime {

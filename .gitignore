@@ -33,3 +33,4 @@ bin/
 .tmp.drivedownload/
 
 mailmap.txt
+src/NewIDEAS/API_KEY.java
