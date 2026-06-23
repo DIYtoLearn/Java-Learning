@@ -15,7 +15,7 @@ class WithGenric<T,S>{
 
 
 public class Gen1 {
-    static void main() {
+    public static void main(String[] args) {
         WithoutGenric wg = new WithoutGenric();
         wg.a = 12;
         wg.b = "Get Gud";

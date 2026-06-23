@@ -14,7 +14,7 @@ public class Gen2 {
     }
 
 
-    static void main() {
+    public static void main(String[] args) {
         Integer[] arr = {11,10,23,10,24,10,54,10};
         int req = count(arr,10);
 

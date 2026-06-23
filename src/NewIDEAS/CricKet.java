@@ -1,5 +1,4 @@
 package NewIDEAS;
-import static NewIDEAS.API_KEY.API_KEY1;
 import java.io.*;
 import java.util.concurrent.TimeUnit;
 import okhttp3.*;
@@ -17,7 +16,7 @@ public class CricKet {
                 .get()
                 .addHeader("Content-Type", "application/json")
                 .addHeader("x-rapidapi-host", "cricket-api-free-data.p.rapidapi.com")
-                .addHeader("x-rapidapi-key", API_KEY1())
+                .addHeader("x-rapidapi-key", "DummyVal")
                 .build();
 
         // 2. Wrap the network call in a try-with-resources block to automatically close connections
