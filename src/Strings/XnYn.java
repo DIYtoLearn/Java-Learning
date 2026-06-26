@@ -5,7 +5,7 @@ class ActualChecker
 {
     static boolean hasBalancedXYGroups(String s, int length)
     {
-        if(s.isEmpty()) // If someone does not enter anything
+        if(s.isEmpty()) // If someone does not enter anything else error  StringIndexOutOfBoundsException
             return false;
 
         if(length%2 != 0 || s.charAt(0) == 'y' ) // Do not allow odd length and if the first character is Y then return false
