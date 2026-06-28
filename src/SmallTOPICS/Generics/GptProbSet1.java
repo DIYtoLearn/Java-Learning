@@ -12,6 +12,11 @@ class Box<T>{
         this.variable = variable;
     }
 
+    public boolean Empty(){
+        return variable != null;
+
+    }
+
     public void setVariable(T variable){
         this.variable = variable;
     }
@@ -41,6 +46,7 @@ public class GptProbSet1 {
         System.out.println(Boxing3.getVariable());
 
         Box<String> Boxing4 = new Box<>();
+        System.out.println(Boxing.Empty());
         //Boxing4.setVariable(100); Cannot Set String to int
 
 

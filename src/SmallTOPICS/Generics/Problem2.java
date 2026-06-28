@@ -8,6 +8,28 @@ class Printer<T>{
     }
 }
 
+class Holder<T>{
+
+    private T first;
+    private T second;
+
+    Holder(T first, T second){
+        this.first = first;
+        this.second =second;
+    }
+
+    public void swap(){
+
+        T temp;
+        temp = first;
+        first =second;
+        second = temp;
+
+        System.out.println(first +" "+ second);
+
+    }
+}
+
 public class Problem2 {
     public static void main(String[] args) {
 
@@ -21,5 +43,10 @@ public class Problem2 {
         for(Employee e : AOfEmp){
             print1.Print(e);
         }
+
+        Holder<String> Hl1 = new Holder<>("1", "2");
+        Hl1.swap();
+
+
     }
 }
