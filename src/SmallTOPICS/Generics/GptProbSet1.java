@@ -25,6 +25,12 @@ class Box<T>{
     {
         return variable;
     }
+
+    // The method is independent of T which is the type parameter of the class that is used by the object of the class Box
+    public <U> void print(U value)
+    {
+        System.out.println(value);
+    }
 }
 
 class OldBox{
@@ -49,6 +55,11 @@ public class GptProbSet1 {
         System.out.println(Boxing.Empty());
         //Boxing4.setVariable(100); Cannot Set String to int
 
+        Box<Character> Boxing9 = new Box<>();
+        Boxing9.print(100);
+        Boxing9.print("100000");
+        Boxing9.print(false);
+        Boxing9.print(99.9999);
 
 
     }

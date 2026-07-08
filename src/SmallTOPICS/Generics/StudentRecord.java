@@ -13,7 +13,7 @@ public class StudentRecord<ID, MARKS> {
 
     public String toString()
     {
-        return "Student ID: "+studentId+" Marks:"+marks;
+        return "Student ID: "+studentId+" Marks: "+marks;
     }
 
 }
