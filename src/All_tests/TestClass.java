@@ -17,5 +17,7 @@ public class TestClass {
 
         boolean Retain_elements = add1.retainAll(add2);
         System.out.println("Is Retain operation successful ? "+ Retain_elements +" "+add1+add2);
+
+        Float fl = 11.12425211F;
     }
 }
