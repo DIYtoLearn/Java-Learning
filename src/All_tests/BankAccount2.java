@@ -72,7 +72,7 @@ class Premium implements Accounts{
 
 public class BankAccount2 {
     public static void main(String[] args) {
-        Accounts acc = new Current();
+        Accounts acc = new Premium();
         double res = acc.calculateServiceCharge(100);
         System.out.println(res);
 
