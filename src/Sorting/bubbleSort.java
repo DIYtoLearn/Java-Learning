@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class bubbleSort {
     public static void main(String[] args) {
 
-        Integer[] arr = {1055, 155, 32, 22, -24};
+        Integer[] arr = {22,155,-24,32,1055};
                 //{22,155,-24,32,1055};
         int len = arr.length;
         int temp;
@@ -27,7 +27,8 @@ public class bubbleSort {
                 }
             }
             if (!didSwap) {
-                System.out.println(didSwap+" "+i); // Print statement to check whether the execution stopped after one iteration of the outer loop
+                System.out.println("Range length "+len);
+                System.out.println("didSwap? "+didSwap+"\ncurrent outer for is at (range length - 1) -> "+i); // Print statement to check whether the execution stopped after one iteration of the outer loop
                 break;
             }
         }
