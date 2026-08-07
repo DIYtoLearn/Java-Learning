@@ -1,6 +1,6 @@
 package GFG;
 
-class Test_2{
+class greaterOfThreeVariables {
     public static int getword()
     {
         int a = 5, b = 6, c = 7;
