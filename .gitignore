@@ -34,3 +34,7 @@ bin/
 
 mailmap.txt
 src/NewIDEAS/API_KEY.java
+
+#Postman
+postman
+.postman
