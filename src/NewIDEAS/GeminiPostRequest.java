@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 public class GeminiPostRequest {
 
     public static void main(String[] args) {
-        String apiKey = "AIzaSyAwY162tdLC1w8FVJf9z75J0PxykE7DZ1c"; // Replace with your actual key
+        String apiKey = ""; // Replace with your actual key
         String endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
         String jsonBody = """
