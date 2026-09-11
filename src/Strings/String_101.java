@@ -37,5 +37,10 @@ public class String_101 {
         int ind1 = s3.indexOf('A',1);
         int ind2 = s4.lastIndexOf('y');
         System.out.println(ind1);
+
+        String a = new String("tariff");
+        String b = new String("tariff");
+        System.out.println(a==b);
+        System.out.println(a.equals(b));
     }
 }
